@@ -11,7 +11,7 @@ Each task uses the same 50 sentences for every annotator, human or model.
 ```
 annotations/
   human/   absa|asqp|ssa_per_annotator.json    annotations of each human annotator (H1-H5)
-  llm/     ssa_<model>.json                    annotations of each model (SSA only, see Missing)
+  llm/     absa|asqp|ssa_<model>.json          annotations of each of the five models
 consensus/
   absa|asqp|ssa_human_consensus.json           consensus of the five humans
   absa|asqp|ssa_llm_consensus.json             consensus of the five models
@@ -48,10 +48,10 @@ The reviews come from TripAdvisor data released by three shared tasks: ABSAPT 20
 Only the 50-sentence sample annotated in this study is included here, and the annotations
 are ours; the underlying texts belong to those releases.
 
-## Missing
+## Not included
 
-Per-model annotations are included for SSA only. For ABSA and ASQP the repository carries
-the model consensus but not the individual model outputs.
+The raw model responses, including the reasoning traces quoted in the paper, are not part
+of this release; only the parsed annotations are.
 
 ## Task notes
 

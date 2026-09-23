@@ -1,0 +1,2646 @@
+{
+  "ex_0403": {
+    "text": "Hotel com condições gerais muito más. Infraestruturas bastante degradadas, sem elevador, casa de banho partilhada para 11 quartos por piso, sendo a sanita numa ponta do corredor e o chuveiro na outra ponta, estando os equipamentos sanitários bastante degradados e pouco funcionais. Quarto sem tv e com pouca privacidade, uma vez que a cortina era transparente. isolamento acústico muito fraco, pelo que se ouvia no piso todo sempre que alguém passava no corredor. Só há internet na recepção e na sala de convívio anexa à recepção, sendo esta sala um espaço escuro, degradado e sem o mínimo de condições. Para as condições que tem é demasiado caro. As únicas vantagens é que fica junto à estação de metro de belleville e que o quarto tinha bom aquecimento. Room Tip: Escolham outro hotel",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "condições gerais",
+        "opinion": "muito más",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "infraestruturas",
+        "opinion": "bastante degradadas",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "elevador",
+        "opinion": "sem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "casa de banho partilhada",
+        "opinion": "para 11 quartos por piso",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "sanita",
+        "opinion": "numa ponta do corredor",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "chuveiro",
+        "opinion": "na outra ponta",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "equipamentos sanitários",
+        "opinion": "bastante degradados e pouco funcionais",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "tv",
+        "opinion": "sem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "privacidade",
+        "opinion": "pouca",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "cortina",
+        "opinion": "transparente",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "isolamento acústico",
+        "opinion": "muito fraco",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "internet",
+        "opinion": "só há na recepção e na sala de convívio",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "sala de convívio",
+        "opinion": "escuro, degradado e sem o mínimo de condições",
+        "polarity": "NEG"
+      },
+      {
+        "category": "price",
+        "aspect": "preço",
+        "opinion": "demasiado caro",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "junto à estação de metro de belleville",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "aquecimento",
+        "opinion": "bom",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1024": {
+    "text": "O hotel segue corretamente os padrões do Mercure o que significa ser bom. Excelente localização, isolamento acústico muito bom. A funcionária que me recebeu na recepção visivelmente não gosta de brasileiros o que causou uma impressão ruim. Os quartos são pequenos e quase não tem espaço para as malas.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "excelente",
+        "polarity": "POS"
+      },
+      {
+        "category": "structure",
+        "aspect": "isolamento acústico",
+        "opinion": "muito bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionária",
+        "opinion": "não gosta de brasileiros",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "pequenos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "espaço para as malas",
+        "opinion": "quase não tem",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0445": {
+    "text": "O hotel é muito luxuoso e em frente o central park, pena que o café da manhã é tão ridículo. Nem combina com a suntuosidade do local e com o alto preço da diária. Não tem frios nem ovos mexidos, apenas coisas industrializadas, muffins açucarados, pães doces muuuuito doces, pouquíssima fruta. Espero que tenha mudado neste aspecto, que é único ponto negativo no local. No mais, é tudo perfeito, principalmente a simpatia dos funcionários, inclusive um senhor que fala português e fica na recepção.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "muito luxuoso",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "em frente o central park",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "tão ridículo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "Nem combina com a suntuosidade do local",
+        "polarity": "NEG"
+      },
+      {
+        "category": "price",
+        "aspect": "preço da diária",
+        "opinion": "alto",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "frios",
+        "opinion": "não tem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "ovos mexidos",
+        "opinion": "não tem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "coisas industrializadas",
+        "opinion": "apenas",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "muffins",
+        "opinion": "açucarados",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "pães doces",
+        "opinion": "muuuuito doces",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "fruta",
+        "opinion": "pouquíssima",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "único ponto negativo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "local",
+        "opinion": "tudo perfeito",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionários",
+        "opinion": "simpatia",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "senhor que fala português",
+        "opinion": "fica na recepção",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1692": {
+    "text": "O hotel em geral é bom, o que achamos ruim foi o tamanho do quarto e do banheiro. Em se tratando de Paris já esperávamos encontrar um quarto pequeno, mas mesmo assim ficamos decepcionados. Chegamos com duas malas grandes, foi uma dificuldade abri-las. Localização ótima, a duas quadras de St Germain. Mercados e restaurantes próximos. Funcionários atenciosos. Internet free, boa qualidade.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "tamanho do quarto",
+        "opinion": "ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "tamanho do banheiro",
+        "opinion": "ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "pequeno",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "decepcionados",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "ótima",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionários",
+        "opinion": "atenciosos",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "internet",
+        "opinion": "boa qualidade",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1336": {
+    "text": "Hotel de estrutara considerável, com excelente localização para compras e restaurantes mais turísticos. Quanto à aparência das ruas e dos transeuntes, é a mesma de toda a região de Times Square: Lotada, não muito limpa e cheia de personagens peculiares. Caso queira acordar e fazer um tranquilo passeio e ruas arborizadas, vá para o Upper East Side.",
+    "annotations": [
+      {
+        "category": "structure",
+        "aspect": "estrutura",
+        "opinion": "considerável",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "excelente",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "aparência das ruas e dos transeuntes",
+        "opinion": "Lotada, não muito limpa e cheia de personagens peculiares",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0383": {
+    "text": "Em cidades grandes e com muitas atrações como Paris localização é tudo. Esse hotel fica próximo do Louvre, da Pont Neuf, da Notredamme, Ile de la citê e ile de Saint Louis. O metrô fica do lado do hotel. Os quartos são confortáveis, com um bom tamanho. Banheiro amplo e sempre limpo. Funcionários da recepção foram sempre muito simpáticos. Definitivamente uma grande opção para aqueles que ainda não querem pagar muito mais por um hotel 5 estrelas.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "tudo",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "hotel",
+        "opinion": "próximo do Louvre, da Pont Neuf, da Notredamme, Ile de la citê e ile de Saint Louis",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "metrô",
+        "opinion": "fica do lado do hotel",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "confortáveis, com um bom tamanho",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "banheiro",
+        "opinion": "amplo e sempre limpo",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionários da recepção",
+        "opinion": "sempre muito simpáticos",
+        "polarity": "POS"
+      },
+      {
+        "category": "price",
+        "aspect": "hotel",
+        "opinion": "não querem pagar muito mais por um hotel 5 estrelas",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0563": {
+    "text": "O pessoal da recepção é até gentil, porém, o hotel necessita de reforma urgente! O elevador simplesmente não cabia a mala e um casal, isso quando funcionava. O banheiro do quarto é horrível, o armário simplesmente não tem condições de guardar as roupas de tão velho. Não fiquem nesse local...",
+    "annotations": [
+      {
+        "category": "service",
+        "aspect": "pessoal da recepção",
+        "opinion": "gentil",
+        "polarity": "POS"
+      },
+      {
+        "category": "structure",
+        "aspect": "hotel",
+        "opinion": "necessita de reforma urgente",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "elevador",
+        "opinion": "não cabia a mala e um casal",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "elevador",
+        "opinion": "quando funcionava",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "banheiro do quarto",
+        "opinion": "horrível",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "armário",
+        "opinion": "não tem condições de guardar as roupas de tão velho",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1416": {
+    "text": "Hotel 4 estrelas bem confortavel proximo a Champs Elysees e a duas quadras da estação de metro e a otimos restaurantes,raramente tive que recorrer a taxi para visitar pontos turisticos. O quarto com decoração classica nos agradou bastante. Staffs atenciosos sempre dispostos a atender qualquer solicitação. Recomendo!!",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "proximidade a Champs Elysees",
+        "opinion": "bem confortavel",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "proximidade a estação de metro",
+        "opinion": "a duas quadras",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "proximidade a restaurantes",
+        "opinion": "otimos",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "staffs",
+        "opinion": "atenciosos",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "staffs",
+        "opinion": "sempre dispostos a atender",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "nos agradou bastante",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "decoração classica",
+        "opinion": "nos agradou bastante",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "Recomendo",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0885": {
+    "text": "O Wynn é diferente. O Belaggio, Veneza, e o Aria são ótimos, mas o Wynnn e o Encore são demais. Os quartos são excelentes e grandes, o serviço é top e a comida muito boa. Existe ainda ótimas opções de shows e festas, principalmente as pools parties e a boate XS. Vale a pena ir com amigos ou em casal.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "Wynn",
+        "opinion": "diferente",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "Belaggio, Veneza, Aria",
+        "opinion": "ótimos",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "Wynnn e Encore",
+        "opinion": "demais",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "excelentes e grandes",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "serviço",
+        "opinion": "top",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "comida",
+        "opinion": "muito boa",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "shows e festas",
+        "opinion": "ótimas",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "pools parties e boate XS",
+        "opinion": "ótimas",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1420": {
+    "text": "Quarto bem pequeno, não mandaram cama extra para nossa filha (e mesmo assim ñ caberia).    Localização boa (perto dele tem supermercado, farmácia, lavanderia e estação de metrô).    O sabonete líquido (e shampoo) do banheiro totalmente sujo, uma porcaria. Compramos um sabonete em barra no supermercado e ficamos usando.    Achei o quarto muito ruim!",
+    "annotations": [
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "bem pequeno",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "cama extra",
+        "opinion": "não mandaram",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "boa",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "sabonete líquido",
+        "opinion": "totalmente sujo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "shampoo",
+        "opinion": "uma porcaria",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "muito ruim",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1749": {
+    "text": "Ótima localização, café farto e delicioso, chuveiro forte, banheiro limpo, cama maravilhosa, limpeza e atendimento nota 10! Só o quarto não é tão espaçoso, o que não foi problema pelo tempo que ficamos no quarto..  Em frente ao hotel há um mercado, onde se pode comprar um sanduíche, fatia de pizza, achocolatado, salada ou doce para um lanchinho noturno.  Vale a pena! Voltaremos, com certeza!",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "Ótima",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café",
+        "opinion": "farto e delicioso",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "chuveiro",
+        "opinion": "forte",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "banheiro",
+        "opinion": "limpo",
+        "polarity": "POS"
+      },
+      {
+        "category": "comfort",
+        "aspect": "cama",
+        "opinion": "maravilhosa",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "limpeza",
+        "opinion": "nota 10",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "atendimento",
+        "opinion": "nota 10",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "não é tão espaçoso",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "mercado",
+        "opinion": "há um mercado",
+        "polarity": "NEU"
+      },
+      {
+        "category": "food",
+        "aspect": "sanduíche",
+        "opinion": "pode comprar",
+        "polarity": "NEU"
+      },
+      {
+        "category": "food",
+        "aspect": "fatia de pizza",
+        "opinion": "pode comprar",
+        "polarity": "NEU"
+      },
+      {
+        "category": "food",
+        "aspect": "achocolatado",
+        "opinion": "pode comprar",
+        "polarity": "NEU"
+      },
+      {
+        "category": "food",
+        "aspect": "salada",
+        "opinion": "pode comprar",
+        "polarity": "NEU"
+      },
+      {
+        "category": "food",
+        "aspect": "doce",
+        "opinion": "pode comprar",
+        "polarity": "NEU"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "Vale a pena",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "Voltaremos",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0931": {
+    "text": "Estive uma vez no Hotel Açores e achei-o bem razoável. A localização central é ótima. O café da manhã era em boa quantidade e qualidade, me surpreendeu a variedade disponível. O quarto era bem razoável. Claro, o prédio é velho e os quartos e mobília são velhos, mas não tive problema quanto a isso. Fiquei em um quarto bem espaçoso com duas camas. Não voltaria ao hotel apenas porque acho ele caro pelo serviço oferecido, isto é, embora o hotel seja bom, não acho que vale o preço que custa. Se fosse mais barato, me hospedaria sempre nele.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "Hotel Açores",
+        "opinion": "bem razoável",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "localização central",
+        "opinion": "ótima",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "em boa quantidade e qualidade",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "variedade",
+        "opinion": "surpreendeu",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "bem razoável",
+        "polarity": "NEU"
+      },
+      {
+        "category": "structure",
+        "aspect": "prédio",
+        "opinion": "velho",
+        "polarity": "NEU"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos e mobília",
+        "opinion": "velhos",
+        "polarity": "NEU"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "bem espaçoso",
+        "polarity": "POS"
+      },
+      {
+        "category": "price",
+        "aspect": "preço",
+        "opinion": "caro pelo serviço oferecido",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "price",
+        "aspect": "preço",
+        "opinion": "não vale o preço que custa",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1358": {
+    "text": "Pelo que se depreende quanto ao Ar Condicionado êle não existe, informam haver climatização que na verdade não refrigera e portanto por se tratar de dias quentes era necessário dormir com as janelas abertas num lugar com grande poluição ou pó preto.  A única coisa boa era o piso dos quartos que era de carpete de madeira.",
+    "annotations": [
+      {
+        "category": "amenities",
+        "aspect": "Ar Condicionado",
+        "opinion": "não existe",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "climatização",
+        "opinion": "não refrigera",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "piso dos quartos",
+        "opinion": "boa",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0712": {
+    "text": "Um hotel pequeno com quartos aconchegantes e confortáveis, wi-fi grátis e ótima localização. Dá pra ir a pé aos pontos turísticos mais badalados ou se locomover de metrô, trem ou ônibus para qualquer canto da cidade e região facilmente para quem vai a trabalho. Sem contar que eles oferecem early check-in com a maior tranquilidade.  Room Tip: As suítes com janelas para a frente do hotel mostram uma praça arborizada de um edificio comercial b...",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "pequeno",
+        "polarity": "NEU"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "aconchegantes e confortáveis",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "wi-fi grátis",
+        "opinion": "ótima",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "ótima",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "early check-in",
+        "opinion": "com a maior tranquilidade",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0663": {
+    "text": "O nome pode ser pomposo, mas assim que se entra no hall e se sobem as escadas não é possível encontrar nada de royal nem tão pouco de 4 estrelas como suposto. Desde pó, manchas nas cadeiras à refeição, canos à mostra, tampo da sanita solto, uma tampa de algum gel banho dentro do lavatório, a cama parecia que tinha um buraco no meio, a vista era uma parede manchada, tudo realmente péssimo e no máximo dos máximos 2 estrelas. Por este preço tinha ido para o Ibis que sempre sabia com o que contava!!  Não recomendo a ninguém!",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "nome",
+        "opinion": "pomposo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "hall",
+        "opinion": "não é possível encontrar nada de royal nem tão pouco de 4 estrelas",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "pó",
+        "opinion": "péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "manchas nas cadeiras",
+        "opinion": "péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "refeição",
+        "opinion": "péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "canos à mostra",
+        "opinion": "péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "tampo da sanita solto",
+        "opinion": "péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "tampa de algum gel banho dentro do lavatório",
+        "opinion": "péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "cama",
+        "opinion": "parecia que tinha um buraco no meio",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "vista",
+        "opinion": "uma parede manchada",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "tudo",
+        "opinion": "realmente péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "preço",
+        "opinion": "no máximo dos máximos 2 estrelas",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "Ibis",
+        "opinion": "sempre sabia com o que contava",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "recomendação",
+        "opinion": "Não recomendo a ninguém",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0248": {
+    "text": "Paris Las Vegas Estive no hotel de 18 até 22 de fevereiro. Nós eramos em quatro pessoas: minha esposa, meu genro e minha filha. Las Vegas é demais, mas o hotel transformou minhas férias em um inferno de dor de cabeça. Eu deveria receber alguns pacotes da Amazon.com, os quais, de acordo com a companhia, estavam no hotel desde o começo de fevereiro. Gastou-se três dias, com a minha pressão , para recuperar os itens que eles diziam não estavam em seu depósito. O hotel cobrou taxas de manuseio que iam de $5 até $30 por cada pacote. Na noite anterior ao checkout fui solicitado a ir mediatamente pagar um saldo de $125 de taxas de manuseio. O hotel nos manteve trancados fora do seu apartamento e para conseguir novas chaves o saldo deveriua ser pago. Não era possível até o dia seguinte. Las Vegas é uma magnifica cidade, mas se precisar de hotel, vá até o outro lado da Strip no Belagio.",
+    "annotations": [
+      {
+        "category": "service",
+        "aspect": "hotel",
+        "opinion": "transformou minhas férias em um inferno de dor de cabeça",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "hotel",
+        "opinion": "diziam não estavam em seu depósito",
+        "polarity": "NEG"
+      },
+      {
+        "category": "price",
+        "aspect": "taxas de manuseio",
+        "opinion": "cobrou taxas de manuseio que iam de $5 até $30 por cada pacote",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "hotel",
+        "opinion": "nos manteve trancados fora do seu apartamento",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "Las Vegas",
+        "opinion": "magnifica cidade",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1262": {
+    "text": "Fiquei muito satisfeita com o hotel. A localização e perfeita, café da manha bom, internet no quarto o que e um diferencial em NY, chegamos bem antes do horário do check in e nos deixaram ir para o quarto. Pra quem vai para NY para passear bastante e só vai usar o quarto para descanso e perfeito. Com certeza me hospedaria novamente.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "muito satisfeita",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "perfeita",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "internet no quarto",
+        "opinion": "um diferencial",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "check in",
+        "opinion": "nos deixaram ir para o quarto",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "perfeito",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0047": {
+    "text": "Em Las Vegas Fiquei hospedado tres dias em outro hotel e mais tres dias no tropicana, com certeza o Tropicana será o hotel de minha preferencia em um retorno a Vegas. Hotel Moderno, Limpeza impecavel, Quartos espaçosos e bem decorados, cumpriu com excelencia tudo que estava descrito pelo Hoteis.com. [PERSON]",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "Tropicana",
+        "opinion": "será o hotel de minha preferencia",
+        "polarity": "POS"
+      },
+      {
+        "category": "structure",
+        "aspect": "Hotel",
+        "opinion": "Moderno",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "Limpeza",
+        "opinion": "impecavel",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "Quartos",
+        "opinion": "espaçosos e bem decorados",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "tudo",
+        "opinion": "cumpriu com excelencia",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0651": {
+    "text": "O Hotel é bem localizado, mas falta um frigobar no apartamento, que é de extrema importância. O quarto é muito pequeno e o café da manhã fica a desejar. O Hotel estava em reforma, o que tornou a hospedagem muito desagradável, pois o local aonde tomavamos café da manhã, ficava com um forte cheiro de tinta, poeira e outros, inclusive minha bolsa ficou manchada devido a tinta na porta do elevador.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "bem",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "frigobar",
+        "opinion": "falta",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "apartamento",
+        "opinion": "de extrema importância",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "muito pequeno",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "fica a desejar",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "Hotel",
+        "opinion": "em reforma",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "hospedagem",
+        "opinion": "muito desagradável",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "local",
+        "opinion": "forte cheiro de tinta, poeira e outros",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "porta do elevador",
+        "opinion": "tinta",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0203": {
+    "text": "O Hotel é muito ruim, nem parece um IBIS e não merece 3 estrelas (nem mesmo uma). Elevadores, Box, Barulho, tudo muito ruim. A única coisa que se salva é a localização. Não recomendo, ou melhor, recomendo evitar!",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "Hotel",
+        "opinion": "muito ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "IBIS",
+        "opinion": "nem parece",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "3 estrelas",
+        "opinion": "não merece",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "Elevadores",
+        "opinion": "muito ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "Box",
+        "opinion": "muito ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "Barulho",
+        "opinion": "muito ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "se salva",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "Hotel",
+        "opinion": "Não recomendo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "Hotel",
+        "opinion": "recomendo evitar",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1778": {
+    "text": "Muito bem localizado. Ficamos em quarto com Quitinete (1107) e para os padrões de NYC o espaço não era tão reduzido. Quarto bastante silencioso conforme solicitamos.  Serviços simples e eficientes: cafeteira com sachê de café, internet gratuita nos quartos, água disponível nos corredores para os hóspedes, office para uso em caso de emergência (computadores e impressora).  Aceitou nosso cartão pré pago para pagamento (VTM).  Voltaríamos com certeza. Vale o investimento.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "bem localizado",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "não era tão reduzido",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "silencioso",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "serviços",
+        "opinion": "simples e eficientes",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "cafeteira",
+        "opinion": "com sachê de café",
+        "polarity": "NEU"
+      },
+      {
+        "category": "amenities",
+        "aspect": "internet",
+        "opinion": "gratuita nos quartos",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "água",
+        "opinion": "disponível nos corredores",
+        "polarity": "NEU"
+      },
+      {
+        "category": "amenities",
+        "aspect": "office",
+        "opinion": "para uso em caso de emergência",
+        "polarity": "NEU"
+      },
+      {
+        "category": "price",
+        "aspect": "investimento",
+        "opinion": "vale",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1268": {
+    "text": "Hotel muito bem localizado.Quartos muito bons,todo hotel muito bonito.Porém o melhor foi o atendimento muito especial que recebemos de todos,tinhamos sempre uma atenção prestativa, eficaz e agradável de todos.Sempre alguém estava preocupado como estava nossa estadia no hotel e nossa visita por Nova York.Muito agradecido à todos.Elevadores muito eficientes,limpeza muito boa.Rcomendo",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "muito bem",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "muito bons",
+        "polarity": "POS"
+      },
+      {
+        "category": "structure",
+        "aspect": "hotel",
+        "opinion": "muito bonito",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "atendimento",
+        "opinion": "muito especial",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "atenção",
+        "opinion": "prestativa, eficaz e agradável",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "preocupação",
+        "opinion": "como estava nossa estadia",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "preocupação",
+        "opinion": "como estava nossa visita por Nova York",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "elevadores",
+        "opinion": "muito eficientes",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "limpeza",
+        "opinion": "muito boa",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0157": {
+    "text": "Jamais gaste seu rico dinheirinho neste Hotel ! Os quartos são péssimos... só andei de chinelo de tão sujo que parecia. O banheiro estava pior ainda, com cheiro horrível , pia e banheira entupida. Jamais ficarei ou indicarei este Hotel. A única coisa boa foi que nos deram o direito de tomar café na Starbucks, ainda bem, porque se o café fosse na cozinha desse Hotel eu preferiria ficar com fome!",
+    "annotations": [
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "péssimos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "banheiro",
+        "opinion": "cheiro horrível",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "pia e banheira",
+        "opinion": "entupida",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café",
+        "opinion": "única coisa boa",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0094": {
+    "text": "Fiquei hospedado no hotel por seis noites e apesar de ter viajado com a minha esposa e ter feito reserva para um casal, nos disponibilizaram um apartamento com duas camas de solteiro e apesar de diversas solicitações para que isso fosse resolvido, nenhuma providência foi tomada. Destaco ainda que alguns funcionários do hotel foram extremamente simpáticos, no entanto, outros não faziam a mínima questão de serem pelo menos educados.",
+    "annotations": [
+      {
+        "category": "service",
+        "aspect": "funcionários",
+        "opinion": "extremamente simpáticos",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionários",
+        "opinion": "não faziam a mínima questão de serem pelo menos educados",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1426": {
+    "text": "Jamais gaste seu rico dinheirinho neste Hotel !  Os quartos são péssimos... só andei de chinelo de tão sujo que parecia.  O banheiro estava pior ainda, com cheiro horrível , pia e banheira entupida. Jamais  ficarei ou indicarei este Hotel. A única coisa boa foi que nos deram o direito de tomar café  na Starbucks, ainda bem, porque se o café fosse na cozinha desse Hotel eu preferiria ficar com fome!",
+    "annotations": [
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "péssimos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "chinelo",
+        "opinion": "sujo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "banheiro",
+        "opinion": "cheiro horrível",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "pia e banheira",
+        "opinion": "entupida",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café",
+        "opinion": "única coisa boa",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0141": {
+    "text": "Hotel não localizado, no dia que cheguei tenha uma feira de permuta de cenegalezes ou nigerianos na porta....horrível . Quando o taxi para para que desembarcássemos parou o transito, porque não existe espaço disponível para esta finalidade. não recomendo.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "não localizado",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "feira de permuta",
+        "opinion": "horrível",
+        "polarity": "NEG"
+      },
+      {
+        "category": "structure",
+        "aspect": "espaço disponível",
+        "opinion": "não existe",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0013": {
+    "text": "Acabo de fazer uma avaliacao detalhada e a internet caiu denovo...para um ibis...ficou devendo",
+    "annotations": [
+      {
+        "category": "service",
+        "aspect": "internet",
+        "opinion": "caiu denovo",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0632": {
+    "text": "Meu filho encontrou uma calcinha e um remédio no chão que nao eram nossos ,sem limpeza . Nao gostei fiquei com nojo  O quarto era grande mais a limpeza bem ruim . O que valeu foi o bairro adorei  Fiquem no bairro ,mas troquem de hotel",
+    "annotations": [
+      {
+        "category": "cleanliness",
+        "aspect": "limpeza",
+        "opinion": "sem limpeza",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "limpeza",
+        "opinion": "bem ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "bairro",
+        "opinion": "adorei",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0437": {
+    "text": "Escolhei pela localização, facil para ir no centro e facil para aeroporto, os quartos são pequenos, banheiro pequeno, toalhas devem ser revonadas, funcionarios trabalham muito, mas são insuficientes em numero, Ibis deve melhorar tendo mais funcionarios disponiveis, eles ate tentam ser educados, mas não conseguem por excesso de serviço. Já fiquei em Ibis Korea, qualidade de hotel é media, mas sempre volto devido a educação dos funcionarios que são maravilhosos 100%.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "facil para ir no centro e facil para aeroporto",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "pequenos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "banheiro",
+        "opinion": "pequeno",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "toalhas",
+        "opinion": "devem ser renovadas",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionarios",
+        "opinion": "trabalham muito",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionarios",
+        "opinion": "insuficientes em numero",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionarios",
+        "opinion": "tentam ser educados",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionarios",
+        "opinion": "não conseguem por excesso de serviço",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "qualidade de hotel",
+        "opinion": "media",
+        "polarity": "NEU"
+      },
+      {
+        "category": "service",
+        "aspect": "funcionarios",
+        "opinion": "maravilhosos 100%",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1850": {
+    "text": "Localização maravilhosa, duas quadras da Times, perto de tudo, quase em frente ao terminal urbano, deste terminal você pode ir para todas as atrações, tem uma estação principal do metrô na rua do hotel, esquina com o prédio da New York Times. Quarto grande, banheiro grande, muito limpo, tem uma balada no terraço do hotel Sky Deck. Café da manhã típico (ovos, leite, cereais, sanduíches prontos, banana (verde)) e café Starbucks. Recomendo!",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "maravilhosa",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "terminal urbano",
+        "opinion": "quase em frente",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "estação principal do metrô",
+        "opinion": "na rua do hotel",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "grande",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "banheiro",
+        "opinion": "grande",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "quarto",
+        "opinion": "muito limpo",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "balada no terraço do hotel Sky Deck",
+        "opinion": "tem",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "típico",
+        "polarity": "NEU"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "recomendo",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0366": {
+    "text": "Na 45st, pertinho da Times Square, de metrôs e de tudo... Pequeno, simpático, despretensioso e frequentado por gente bacana do mundo todo. Música lounge, piscina logo na entrada e integrada a um bar. Festas animadas rolam pra hospedes e não hospedes. Não espere serviço qualquer e fuja dos quartos menores, que são ridiculamente pequenos. Mas, os intermediários são bons e bem decorados.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "pertinho da Times Square, de metrôs e de tudo",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "pequeno, simpático, despretensioso",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "serviço",
+        "opinion": "não espere serviço qualquer",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos menores",
+        "opinion": "ridiculamente pequenos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos intermediários",
+        "opinion": "bons e bem decorados",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0422": {
+    "text": "Já havia me hospedado neste hotel algum tempo atrás. É bem localizado, próximo da Torre Eiffel e de estação de metrô, limpo, confortável e com um bom café da manhã. O preço é que não achei muito bom mas, em Paris, realmente, todos os hotéis são mais caros e fica difícil encontrar um hotel que seja mais barato e tão bem localizado. Só uma observação, o box do banheiro é pequeno e para uma pessoa maior, talvez fique um pouco apertado.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "bem localizado",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "proximidade da Torre Eiffel",
+        "opinion": "próximo",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "proximidade de estação de metrô",
+        "opinion": "próximo",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "hotel",
+        "opinion": "limpo",
+        "polarity": "POS"
+      },
+      {
+        "category": "comfort",
+        "aspect": "hotel",
+        "opinion": "confortável",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "price",
+        "aspect": "preço",
+        "opinion": "não achei muito bom",
+        "polarity": "NEG"
+      },
+      {
+        "category": "price",
+        "aspect": "hotéis em Paris",
+        "opinion": "mais caros",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "box do banheiro",
+        "opinion": "pequeno",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "box do banheiro",
+        "opinion": "apertado",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0068": {
+    "text": "Estive hospedado pela segunda vez e continuo gostando do hotel. Atendimento rápido mas simpático, apartamentos amplos e cama super confortável, os quartos são equipados com tv, frigobar, microondas e cafeteira automática além de oferecer internet gratuita nos quartos. Perto do Central Park e bem ao lado de uma locadora conhecida de automóveis. Room Tip: Alguns quartos são maiores e dispoem de uma ante-sala c/ TV e DVD (separada do quarto por uma porta...",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "continuo gostando",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "atendimento",
+        "opinion": "rápido mas simpático",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "apartamentos",
+        "opinion": "amplos",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "cama",
+        "opinion": "super confortável",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "quartos",
+        "opinion": "equipados com tv, frigobar, microondas e cafeteira automática",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "internet",
+        "opinion": "gratuita nos quartos",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "hotel",
+        "opinion": "perto do Central Park",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "hotel",
+        "opinion": "bem ao lado de uma locadora conhecida de automóveis",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "maiores",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "ante-sala",
+        "opinion": "c/ TV e DVD",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1783": {
+    "text": "Tive a infelicidade de me hospedar e o elevado estar quebrado. Te deixam esperando pelo elevador, não avisam que quebrou, não te ajudam em nada, nem com as malas. Isso porque tivemos que leva-las pelas escadas! Péssimo atendimento, apenas a localização é ponto positivo, dá pra ir a pé aos principais pontos de Paris.",
+    "annotations": [
+      {
+        "category": "service",
+        "aspect": "elevador",
+        "opinion": "quebrado",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "atendimento",
+        "opinion": "Péssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "ponto positivo",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0205": {
+    "text": "O ar condicionado estava quebrado tornando minhas noites em um verdadeiro inferno. O preço é muito elevado. A localização é razoável. A internet é lenta e inconstante.",
+    "annotations": [
+      {
+        "category": "amenities",
+        "aspect": "ar condicionado",
+        "opinion": "quebrado",
+        "polarity": "NEG"
+      },
+      {
+        "category": "price",
+        "aspect": "preço",
+        "opinion": "muito elevado",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "razoável",
+        "polarity": "NEU"
+      },
+      {
+        "category": "amenities",
+        "aspect": "internet",
+        "opinion": "lenta e inconstante",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1428": {
+    "text": "A piscina do hotel é uma das principais coisas a serem avaliadas na hora de escolher um hotel em Vegas, e a daqui é muito gostoso!!  Não sei se pela maravilhosa experiencia de estar em Vegas, ou particularmente pelo Cassino, mais não tenho nada a me queixar.  Todos, sempre muito atenciosos, cassino muito legal, as festas na piscina então, sensacionais.  Nada a reclamar, apenas que não fica na The Strip, entretanto o fato de ser muito bom e confortável compensa.",
+    "annotations": [
+      {
+        "category": "amenities",
+        "aspect": "piscina",
+        "opinion": "muito gostoso",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "Todos",
+        "opinion": "muito atenciosos",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "cassino",
+        "opinion": "muito legal",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "festas na piscina",
+        "opinion": "sensacionais",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "não fica na The Strip",
+        "opinion": "Nada a reclamar",
+        "polarity": "NEU"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "muito bom e confortável",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0482": {
+    "text": "Amei minha experiência no Affinia, primeiro que chegamos as 7 da manhã, e mesmo o check in sendo as 15 ninguem falou nada, nos deram o quarto na hora e ainda uma garrafa de vinho. Tanto o quarto quanto o hotel são limpos demais, com tudo novinho e muito bem cuidado, apenas o banheiro do quarto é muito pequeno, o que não foi problema nenhum. Atendimendo muito bom dos funcionários, localização ótima, não tenho nada pra reclamar.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "experiência no Affinia",
+        "opinion": "Amei",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "check in",
+        "opinion": "nos deram o quarto na hora e ainda uma garrafa de vinho",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "limpos demais",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "hotel",
+        "opinion": "limpos demais",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "tudo",
+        "opinion": "novinho e muito bem cuidado",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "banheiro do quarto",
+        "opinion": "muito pequeno",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "atendimento",
+        "opinion": "muito bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "ótima",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0534": {
+    "text": "Exepcional é a definição para este hotel, a atmosfera que envolve o MO, o conforto, a tecnologia, a qualidade dos serviços e o tratamento recebido pelos funcionários(que cumprimentam os hóspedes pelo nome a cada chegada ou saida do hotel) é digno de celebridade.Tudo isso numa localização perfeita e sem aglomeração e cheiro de fumo que hoteis com cassino tem.Experiência única, recomendo com certeza.",
+    "annotations": [
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "Exepcional",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "atmosfera",
+        "opinion": "envolve o MO",
+        "polarity": "POS"
+      },
+      {
+        "category": "comfort",
+        "aspect": "conforto",
+        "opinion": "conforto",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "tecnologia",
+        "opinion": "tecnologia",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "qualidade dos serviços",
+        "opinion": "qualidade dos serviços",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "tratamento recebido pelos funcionários",
+        "opinion": "digno de celebridade",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "perfeita",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "experiência",
+        "opinion": "única",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0781": {
+    "text": "Ele não fica na Strip, mas lado a lado com Aria e Bellagio. Então, é silencioso, limpo, confortável. O serviço, é um dos melhores em hotel, que já tive a oportunidade de conhecer. Manobrista e internet free. Quarto lindo, tudo digital, desde a persiana até a solicitação de serviço de quarto. Pra completar, checkout via monitor (tv). Voltando a Las Vegas, seria uma ótima opção!",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "não fica na Strip",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "proximidade",
+        "opinion": "lado a lado com Aria e Bellagio",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "limpeza",
+        "opinion": "limpo",
+        "polarity": "POS"
+      },
+      {
+        "category": "comfort",
+        "aspect": "conforto",
+        "opinion": "confortável",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "serviço",
+        "opinion": "um dos melhores",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "manobrista",
+        "opinion": "free",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "internet",
+        "opinion": "free",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "lindo",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "tecnologia",
+        "opinion": "tudo digital",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "checkout",
+        "opinion": "via monitor (tv)",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0521": {
+    "text": "Talvez esse hotel seja adequado p viagem a negocios sozinho em NYC ou para aqueles q vao so p fazer compras em woodburry. A proximidade dele c a rodoviaria (Port Autority) o transforma em ponto estrategico p esse tipo de viagem, mas c familia, criança, a situaçao nao e tao boa. Rua de acesso muito escura c pessoas muito estranhas nas calçadas (pop de rua), quartos muito pequenos, sem frigobar, nao tem ninguem q nos ajude c as bagagens, consierge extremamente grosseiro e pouca ou nenhuma segurança (nunhuma vez nos identificamos na recepçao p subir p o quarto). Sera q qq pessoa mesmo nao hospede sobe c essa facilidade? É NYC?!",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "proximidade dele c a rodoviaria (Port Autority)",
+        "opinion": "o transforma em ponto estrategico",
+        "polarity": "POS"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "adequado p viagem a negocios sozinho em NYC ou para aqueles q vao so p fazer compras em woodburry",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "Rua de acesso",
+        "opinion": "muito escura c pessoas muito estranhas nas calçadas (pop de rua)",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "muito pequenos, sem frigobar",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "ninguem q nos ajude c as bagagens",
+        "opinion": "nao tem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "consierge",
+        "opinion": "extremamente grosseiro",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "segurança",
+        "opinion": "pouca ou nenhuma",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0299": {
+    "text": "Eu e minha esposa estivemos lá de 02/11/11 a 07/11/11. As fotos do site não correspondem com a realidade, a limpeza é péssima (um papel ficou 4 dias no mesmo lugar). Um dia esquecem de repor as toalhas, no outro o papel higiênico e o pior, esqueceram de arrumar a cama. A rua está cheia de mendigos. O pior de tudo, mesmo que você pague pelo café da manhã (o que não está incluso na reserva via site), ninguém te explica que o café básico é no outro prédio e que o que está atrás da recepção é cobrado a parte, você vai ter que pagar mais 5 euros por dia por pessoa (não vale!). O atendimento é ruim! só salva o esforço das 2 irmãs portuguesas que se revezam na recepção durante o dia. Nem pense em perguntar algo para o recepcionista da noite!  Definitivamente não recomendo! Existem várias outras opções com um custo benefício muito melhor.",
+    "annotations": [
+      {
+        "category": "cleanliness",
+        "aspect": "limpeza",
+        "opinion": "péssima",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "reposição de toalhas",
+        "opinion": "esquecem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "reposição de papel higiênico",
+        "opinion": "esquecem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "arrumação da cama",
+        "opinion": "esqueceram",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "rua",
+        "opinion": "cheia de mendigos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "não vale",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "atendimento",
+        "opinion": "ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "recepcionista da noite",
+        "opinion": "nem pense em perguntar",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "recomendação",
+        "opinion": "não recomendo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "price",
+        "aspect": "custo benefício",
+        "opinion": "muito melhor",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0184": {
+    "text": "Não consigo perceber como é que existem avaliações positivas sobre este hotel!   Quartos:  Excessivamente pequenos. O quarto onde ficámos, a porta de acesso ao quarto colidia com a porta que dava acesso ao corredor.   Pequeno almoço:  Muito fraco, tinha apenas pequenos croissant s, pão (algum sem ser do dia); pacotes de manteiga, sumo de laranja (cliente tem de o fazer), salada de fruta amarga, maquina em que se pode optar cafe com leite, cafe, leite (em pó, pois vi a colocarem na maquina).   Localização:  Fica perto da pior zona de Paris (linha de metro é a 4 a mais insegura, melhor andar na linha 12 tendo de fazer varias conexoes para chegar aos principais pontos turisticos)   Tranquilidade:  Zero, fica em frente de restaurantes que se encarregam de fazer barulho à noite pelo menos até às 3 da manhã). Rua muito barulhenta e nada tranquila, ambiente nao é dos melhores...  Staff:  Já haviamos pago a totalidade da nossa estadia, apresentámos o recibo e mesmo assim pediram-nos mais dinheiro (falaram de uma lei que tinha mudado, uma confusão, muito estranho), contudo quando reclamámos desistiram da ideia.  Na receção nao falam praticamente inglês, a minha sorte era que sabia falar francês. Simpatia também nao é o forte!   Gestão:  Num dos dias da nossa estadia, chegámos ao pequeno almoço às 9h45min e nao havia absolutamente nada para comer. Reclamámos e depois de muito falar sobre o assunto foram comprar 1 pão e 5 croissants para nós e outros 5 clientes. Parecia que nos estavam a fazer um favor... nunca tal...  Ar condicionado:  Não tem! para ter ar condicionado, temos de deixar uma caução de 15 euros e nos entregam um ventilador (situação desagradavel no verão).   Limpeza:  Bateram-nos por 2 vezez na porta do quarto, respondiamos e tentavam entrar com chave, quando gritavamos desistiam de entrar. Não tinham aqueles avisos para colocar na porta. (Não chegámos a saber se a pessoa que estava a tentar entrar no quarto era efetivamente da equipa de limpeza).   Decoração:  O fotografo fez um grande trabalho nas fotografias que publicitam o hotel....",
+    "annotations": [
+      {
+        "category": "room",
+        "aspect": "Quartos",
+        "opinion": "Excessivamente pequenos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "porta de acesso ao quarto",
+        "opinion": "colidia com a porta que dava acesso ao corredor",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "pequeno almoço",
+        "opinion": "Muito fraco",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "pequenos croissants",
+        "opinion": "apenas pequenos croissants",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "pão",
+        "opinion": "algum sem ser do dia",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "pacotes de manteiga",
+        "opinion": "pacotes de manteiga",
+        "polarity": "NEU"
+      },
+      {
+        "category": "food",
+        "aspect": "sumo de laranja",
+        "opinion": "cliente tem de o fazer",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "salada de fruta",
+        "opinion": "amarga",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "máquina de café",
+        "opinion": "leite em pó",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "Localização",
+        "opinion": "Fica perto da pior zona de Paris",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "linha de metro",
+        "opinion": "a mais insegura",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "linha 12",
+        "opinion": "tendo de fazer varias conexoes para chegar aos principais pontos turisticos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "comfort",
+        "aspect": "Tranquilidade",
+        "opinion": "Zero",
+        "polarity": "NEG"
+      },
+      {
+        "category": "comfort",
+        "aspect": "rua",
+        "opinion": "muito barulhenta e nada tranquila",
+        "polarity": "NEG"
+      },
+      {
+        "category": "comfort",
+        "aspect": "ambiente",
+        "opinion": "nao é dos melhores",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "Staff",
+        "opinion": "pediram-nos mais dinheiro",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "receção",
+        "opinion": "nao falam praticamente inglês",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "receção",
+        "opinion": "Simpatia também nao é o forte",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "Gestão",
+        "opinion": "Num dos dias da nossa estadia, chegámos ao pequeno almoço às 9h45min e nao havia absolutamente nada para comer",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "Gestão",
+        "opinion": "foram comprar 1 pão e 5 croissants para nós e outros 5 clientes",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "Ar condicionado",
+        "opinion": "Não tem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "ventilador",
+        "opinion": "situação desagradavel no verão",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "Limpeza",
+        "opinion": "Bateram-nos por 2 vezez na porta do quarto",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "Limpeza",
+        "opinion": "Não tinham aqueles avisos para colocar na porta",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "Decoração",
+        "opinion": "O fotografo fez um grande trabalho nas fotografias que publicitam o hotel",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1854": {
+    "text": "Localização imbatível. Funcionarios muito educados e Concierge excepcional. Limpo. Tudo funcionando. Quarto de tamanho médio, esperado para Paris. Banheiro novo. Metro 3 quadras(mais de uma linha), apesar de se poder ir caminhando ao Louvre, Torre, Notre Dame, Opera, Marais, Arco do Triunfo, bem como a praticamente todos os pontos turisticos. A praça de Vendome 1 quarteirão é o ponto do Luxo.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "Localização",
+        "opinion": "imbatível",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "Funcionarios",
+        "opinion": "muito educados",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "Concierge",
+        "opinion": "excepcional",
+        "polarity": "POS"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "Limpo",
+        "opinion": "Limpo",
+        "polarity": "POS"
+      },
+      {
+        "category": "structure",
+        "aspect": "Tudo",
+        "opinion": "funcionando",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "Quarto",
+        "opinion": "de tamanho médio",
+        "polarity": "NEU"
+      },
+      {
+        "category": "room",
+        "aspect": "Banheiro",
+        "opinion": "novo",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "Metro",
+        "opinion": "3 quadras",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "Louvre",
+        "opinion": "caminhando",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "Torre",
+        "opinion": "caminhando",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "Notre Dame",
+        "opinion": "caminhando",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "Opera",
+        "opinion": "caminhando",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "Marais",
+        "opinion": "caminhando",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "Arco do Triunfo",
+        "opinion": "caminhando",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "pontos turisticos",
+        "opinion": "caminhando",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "praça de Vendome",
+        "opinion": "1 quarteirão",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "ponto do Luxo",
+        "opinion": "ponto do Luxo",
+        "polarity": "NEU"
+      }
+    ]
+  },
+  "ex_0073": {
+    "text": "Estive neste mesmo hotel na exatos 2 anos e 4 meses e notei uma diferença enorme na qualidade dos serviços. Exemplo piora do café da manhã, atendimento ruim na recepção, tinha reservado2 quartos e a recepcionista achava apenas um, depois acharam mas em andares diferentes, depois me colocaram no mesmo andar so que ao inves do vigésimo quinta andar de frente para o rio Sena, no sexto de fundos, num apartamento mais velho e sem hidro. Não vou mais",
+    "annotations": [
+      {
+        "category": "service",
+        "aspect": "qualidade dos serviços",
+        "opinion": "diferença enorme",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "piora",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "atendimento",
+        "opinion": "ruim",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "achavam apenas um",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "andar",
+        "opinion": "andares diferentes",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "vigésimo quinta andar",
+        "opinion": "de frente para o rio Sena",
+        "polarity": "NEU"
+      },
+      {
+        "category": "room",
+        "aspect": "sexto andar",
+        "opinion": "de fundos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "apartamento",
+        "opinion": "mais velho",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "hidro",
+        "opinion": "sem hidro",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1543": {
+    "text": "O hotel têm uma ótima localização, próxima a metro, pontos turísticos e comércio.  Apesar do quarto ser bem pequeno ele é bem confortável.   Tivemos um pequeno problema no primeiro dia em que nosso quarto não foi arrumado, tivemos que pedir na recepção.   O café da manhã tive boas opções mas sempre era muito tumultuado.   Ótimo custo benefício.",
+    "annotations": [
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "ótima",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "bem pequeno",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "bem confortável",
+        "polarity": "POS"
+      },
+      {
+        "category": "service",
+        "aspect": "quarto",
+        "opinion": "não foi arrumado",
+        "polarity": "NEG"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "boas opções",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "muito tumultuado",
+        "polarity": "NEG"
+      },
+      {
+        "category": "price",
+        "aspect": "custo benefício",
+        "opinion": "ótimo",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_1181": {
+    "text": "Os quartos são meio em estilo frances, ficamos em um quarto quadruplo, eram duas camas de casal bem confortáveis, chuveiro tipico europeu e o vaso era em um ambiente separado. Mas no geral muito bom. O cafe da manha delicioso, muitos queijos, pao gostoso, iogurtes, sucos, leite... Acesso a internet no lobby. Localização perfeita, ao lado de supermercados, perto de metros, bares e restaurantes... dá pra ir a Champs Elisee a pé.",
+    "annotations": [
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "meio em estilo frances",
+        "polarity": "NEU"
+      },
+      {
+        "category": "room",
+        "aspect": "quarto quadruplo",
+        "opinion": "bem confortáveis",
+        "polarity": "POS"
+      },
+      {
+        "category": "room",
+        "aspect": "chuveiro",
+        "opinion": "tipico europeu",
+        "polarity": "NEU"
+      },
+      {
+        "category": "room",
+        "aspect": "vaso",
+        "opinion": "em um ambiente separado",
+        "polarity": "NEU"
+      },
+      {
+        "category": "general",
+        "aspect": "no geral",
+        "opinion": "muito bom",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "cafe da manha",
+        "opinion": "delicioso",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "queijos",
+        "opinion": "muitos",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "pao",
+        "opinion": "gostoso",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "iogurtes",
+        "opinion": "muitos",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "sucos",
+        "opinion": "muitos",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "leite",
+        "opinion": "muitos",
+        "polarity": "POS"
+      },
+      {
+        "category": "amenities",
+        "aspect": "acesso a internet",
+        "opinion": "no lobby",
+        "polarity": "NEU"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "perfeita",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "supermercados",
+        "opinion": "ao lado",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "metros",
+        "opinion": "perto",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "bares",
+        "opinion": "perto",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "restaurantes",
+        "opinion": "perto",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "Champs Elisee",
+        "opinion": "a pé",
+        "polarity": "POS"
+      }
+    ]
+  },
+  "ex_0989": {
+    "text": "O hotel é ENORME, como todos em L.V. É MUITO frio dentro do hotel, pois o hotel tem um ar condicionado geladíssimo. Os quartos são imensos e arejados. O hotel é muito bem localizado, na Strip. O café da manhã é pago à parte e mais parece um almoço! A atração é um vulcão que entra em erupção de hora em hora, meio sem graça. Fora isso, não há outras atrações.",
+    "annotations": [
+      {
+        "category": "structure",
+        "aspect": "hotel",
+        "opinion": "ENORME",
+        "polarity": "POS"
+      },
+      {
+        "category": "comfort",
+        "aspect": "ar condicionado",
+        "opinion": "geladíssimo",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "quartos",
+        "opinion": "imensos e arejados",
+        "polarity": "POS"
+      },
+      {
+        "category": "location",
+        "aspect": "hotel",
+        "opinion": "muito bem localizado",
+        "polarity": "POS"
+      },
+      {
+        "category": "food",
+        "aspect": "café da manhã",
+        "opinion": "mais parece um almoço",
+        "polarity": "NEU"
+      },
+      {
+        "category": "amenities",
+        "aspect": "atração",
+        "opinion": "meio sem graça",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0530": {
+    "text": "Reservamos 05 diárias neste hotel de grande só tem o nome. Quando chegamos, o hotel o quarto não havia espaço nem para abrir as malas, o auqecedor não funcionava o banheiro fedia. Na mesma hora contactamos o agente de viagem e mudamos no mesmo dia de hotel. Foi a pior experiência de Paris!",
+    "annotations": [
+      {
+        "category": "room",
+        "aspect": "quarto",
+        "opinion": "não havia espaço nem para abrir as malas",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "aquecedor",
+        "opinion": "não funcionava",
+        "polarity": "NEG"
+      },
+      {
+        "category": "room",
+        "aspect": "banheiro",
+        "opinion": "fedia",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "experiência",
+        "opinion": "pior",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_1795": {
+    "text": "Fiquei nesse hotel e nao tinha agua quente no chuveiro.Falei com a recepcao e me trocaram de quarto.No outro quarto o mesmo problema, ou seja, sem agua quente no chuveiro.Fiz uma reclamacao formal no livro de ocorrencias do hotel, deixei meu telefone, mas ninguem retornou pra explicar o que houve.Não recomendo.",
+    "annotations": [
+      {
+        "category": "structure",
+        "aspect": "água quente no chuveiro",
+        "opinion": "não tinha",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "recepção",
+        "opinion": "me trocaram de quarto",
+        "polarity": "NEU"
+      },
+      {
+        "category": "structure",
+        "aspect": "água quente no chuveiro",
+        "opinion": "o mesmo problema",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "reclamação formal",
+        "opinion": "ninguém retornou",
+        "polarity": "NEG"
+      },
+      {
+        "category": "general",
+        "aspect": "hotel",
+        "opinion": "não recomendo",
+        "polarity": "NEG"
+      }
+    ]
+  },
+  "ex_0494": {
+    "text": "Tivemos problema com estacionamento, os elevadores sempre sujos, serviço de quarto demorado, ficamos um dia sem limparem o quarto. Além disso o cassino era junto do hotel sem nenhum controle de acesso aos quartos, sem nenhuma segurança. A localização é o único ponto positivo do hotel",
+    "annotations": [
+      {
+        "category": "structure",
+        "aspect": "estacionamento",
+        "opinion": "problema",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "elevadores",
+        "opinion": "sempre sujos",
+        "polarity": "NEG"
+      },
+      {
+        "category": "service",
+        "aspect": "serviço de quarto",
+        "opinion": "demorado",
+        "polarity": "NEG"
+      },
+      {
+        "category": "cleanliness",
+        "aspect": "limpeza do quarto",
+        "opinion": "ficamos um dia sem limparem",
+        "polarity": "NEG"
+      },
+      {
+        "category": "amenities",
+        "aspect": "cassino",
+        "opinion": "junto do hotel sem nenhum controle de acesso aos quartos, sem nenhuma segurança",
+        "polarity": "NEG"
+      },
+      {
+        "category": "location",
+        "aspect": "localização",
+        "opinion": "único ponto positivo",
+        "polarity": "POS"
+      }
+    ]
+  }
+}
