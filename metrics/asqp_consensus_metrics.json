@@ -1,0 +1,1804 @@
+{
+  "datasetId": 19,
+  "datasetName": "ASQP",
+  "taskType": "asqp",
+  "annotationFields": [
+    "category",
+    "aspect",
+    "sentiment",
+    "polarity"
+  ],
+  "annotationFieldsRestricted": false,
+  "consensus": {
+    "rule": "min-jaccard-distance",
+    "anchor": "legado",
+    "itemsWithConsensus": 50,
+    "tuples": 184,
+    "humanAnnotators": 5
+  },
+  "syntheticConsensus": {
+    "rule": "min-jaccard-distance",
+    "anchor": "legado",
+    "itemsWithConsensus": 50,
+    "tuples": 318,
+    "llmAnnotators": 5,
+    "models": [
+      "deepseek-ai/deepseek-v4-pro-0813",
+      "mistralai/mistral-nemotron",
+      "nvidia/nemotron-3-super-120b-a12b",
+      "nvidia/nemotron-3-ultra-550b-a55b",
+      "openai/gpt-oss-20b"
+    ]
+  },
+  "reliability": {
+    "annotators": 5,
+    "alpha": {
+      "alpha": 0.4673375184344304,
+      "observedDisagreement": 0.5271727588201283,
+      "expectedDisagreement": 0.9896938062367255,
+      "unitsConsidered": 50,
+      "values": 250
+    },
+    "alphaByElement": {
+      "category": {
+        "alpha": 0.43115634054013574,
+        "observedDisagreement": 0.3890063492063496,
+        "expectedDisagreement": 0.6838545929750257,
+        "unitsConsidered": 50,
+        "values": 250
+      },
+      "aspect": {
+        "alpha": 0.7750831480840892,
+        "observedDisagreement": 0.20228961038961057,
+        "expectedDisagreement": 0.8993973046770198,
+        "unitsConsidered": 50,
+        "values": 250
+      },
+      "sentiment": {
+        "alpha": 0.6751105961635808,
+        "observedDisagreement": 0.31831471861471816,
+        "expectedDisagreement": 0.9797633128564226,
+        "unitsConsidered": 50,
+        "values": 250
+      },
+      "polarity": {
+        "alpha": 0.8442989599571847,
+        "observedDisagreement": 0.07166666666666667,
+        "expectedDisagreement": 0.4602838018741526,
+        "unitsConsidered": 50,
+        "values": 250
+      }
+    }
+  },
+  "llmReliability": {
+    "annotators": 5,
+    "alpha": {
+      "alpha": 0.3150553041795896,
+      "observedDisagreement": 0.6802920737137929,
+      "expectedDisagreement": 0.9932073025238267,
+      "unitsConsidered": 50,
+      "values": 250
+    },
+    "alphaByElement": {
+      "category": {
+        "alpha": 0.6171711394939992,
+        "observedDisagreement": 0.22774523809523828,
+        "expectedDisagreement": 0.594900911582836,
+        "unitsConsidered": 50,
+        "values": 250
+      },
+      "aspect": {
+        "alpha": 0.553927271393008,
+        "observedDisagreement": 0.40937636129854765,
+        "expectedDisagreement": 0.9177345644441418,
+        "unitsConsidered": 50,
+        "values": 250
+      },
+      "sentiment": {
+        "alpha": 0.495769659353386,
+        "observedDisagreement": 0.4974312381824337,
+        "expectedDisagreement": 0.986515879914205,
+        "unitsConsidered": 50,
+        "values": 250
+      },
+      "polarity": {
+        "alpha": 0.7645867098865378,
+        "observedDisagreement": 0.09333333333333335,
+        "expectedDisagreement": 0.3964658634537983,
+        "unitsConsidered": 50,
+        "values": 250
+      }
+    }
+  },
+  "annotators": [
+    {
+      "kind": "human",
+      "id": 21,
+      "label": "H1",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.7850467289719626,
+        "recall": 0.9130434782608695,
+        "f1": 0.8442211055276382,
+        "macroPrecision": 0.8067484737484739,
+        "macroRecall": 0.9089999999999998,
+        "macroF1": 0.8395793735676089,
+        "truePositive": 168,
+        "falsePositive": 46,
+        "falseNegative": 16,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.7696787956013357,
+        "observedDisagreement": 0.22776984126984126,
+        "expectedDisagreement": 0.9889225868912752,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.8666541594810478,
+          "observedDisagreement": 0.08000000000000002,
+          "expectedDisagreement": 0.5999437229437223,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9610897188161527,
+          "observedDisagreement": 0.035,
+          "expectedDisagreement": 0.8995051933608089,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8216589482106285,
+          "observedDisagreement": 0.1748150183150183,
+          "expectedDisagreement": 0.980228705399149,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9491077329808328,
+          "observedDisagreement": 0.023333333333333334,
+          "expectedDisagreement": 0.45848484848484866,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 20,
+      "label": "H2",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.8009478672985783,
+        "recall": 0.9184782608695652,
+        "f1": 0.8556962025316456,
+        "macroPrecision": 0.7845433455433455,
+        "macroRecall": 0.8806666666666668,
+        "macroF1": 0.8135998641880994,
+        "truePositive": 169,
+        "falsePositive": 42,
+        "falseNegative": 15,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.7446988750522336,
+        "observedDisagreement": 0.2525793650793651,
+        "expectedDisagreement": 0.9893390212481121,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.8144313979386488,
+          "observedDisagreement": 0.11966666666666669,
+          "expectedDisagreement": 0.644864838864839,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9666464576927635,
+          "observedDisagreement": 0.03,
+          "expectedDisagreement": 0.899454688310304,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8288347851488955,
+          "observedDisagreement": 0.16781501831501833,
+          "expectedDisagreement": 0.9804271180975613,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9428530196983909,
+          "observedDisagreement": 0.02666666666666667,
+          "expectedDisagreement": 0.4666329966329962,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 19,
+      "label": "H3",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.6179245283018868,
+        "recall": 0.7119565217391305,
+        "f1": 0.6616161616161617,
+        "macroPrecision": 0.6525140415140416,
+        "macroRecall": 0.7215,
+        "macroF1": 0.6718864952041423,
+        "truePositive": 131,
+        "falsePositive": 81,
+        "falseNegative": 53,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.5516021551115732,
+        "observedDisagreement": 0.44447712418300644,
+        "expectedDisagreement": 0.9912561562235074,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.5627337635483687,
+          "observedDisagreement": 0.29955555555555563,
+          "expectedDisagreement": 0.6850644540644548,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9587049559615993,
+          "observedDisagreement": 0.037000000000000005,
+          "expectedDisagreement": 0.8959912953620627,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8164132150323589,
+          "observedDisagreement": 0.17995787545787548,
+          "expectedDisagreement": 0.980233274903718,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9785140707516458,
+          "observedDisagreement": 0.01,
+          "expectedDisagreement": 0.4654208754208752,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 17,
+      "label": "H4",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.20809248554913296,
+        "recall": 0.1956521739130435,
+        "f1": 0.20168067226890757,
+        "macroPrecision": 0.22652380952380954,
+        "macroRecall": 0.21083333333333334,
+        "macroF1": 0.21444444444444447,
+        "truePositive": 36,
+        "falsePositive": 137,
+        "falseNegative": 148,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.14270701733284996,
+        "observedDisagreement": 0.8537063492063491,
+        "expectedDisagreement": 0.9958163270511763,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.1743877040688161,
+          "observedDisagreement": 0.5824285714285715,
+          "expectedDisagreement": 0.7054504569504593,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.5596258815886417,
+          "observedDisagreement": 0.3986406926406926,
+          "expectedDisagreement": 0.9052318834694048,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.31525548038233675,
+          "observedDisagreement": 0.6766269841269843,
+          "expectedDisagreement": 0.9881451617966778,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6965787598004274,
+          "observedDisagreement": 0.14333333333333334,
+          "expectedDisagreement": 0.472390572390572,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 18,
+      "label": "H5",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.7757009345794392,
+        "recall": 0.9021739130434783,
+        "f1": 0.8341708542713567,
+        "macroPrecision": 0.7717484737484738,
+        "macroRecall": 0.8849999999999999,
+        "macroF1": 0.8125952465834818,
+        "truePositive": 166,
+        "falsePositive": 48,
+        "falseNegative": 18,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.743959845907515,
+        "observedDisagreement": 0.25326984126984126,
+        "expectedDisagreement": 0.9891801626488509,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.8401174238356065,
+          "observedDisagreement": 0.09666666666666668,
+          "expectedDisagreement": 0.6046103896103892,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9241867118784254,
+          "observedDisagreement": 0.06833333333333334,
+          "expectedDisagreement": 0.9013371537685265,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8052025562238325,
+          "observedDisagreement": 0.19095787545787546,
+          "expectedDisagreement": 0.9802894317098747,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9356539322596952,
+          "observedDisagreement": 0.03,
+          "expectedDisagreement": 0.4662289562289559,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+      "label": "deepseek-ai/deepseek-v4-pro-0813",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.09651474530831099,
+        "recall": 0.1956521739130435,
+        "f1": 0.12926391382405744,
+        "macroPrecision": 0.11039033189033187,
+        "macroRecall": 0.21550000000000005,
+        "macroF1": 0.14042152292152293,
+        "truePositive": 36,
+        "falsePositive": 337,
+        "falseNegative": 148,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.08247981163580587,
+        "observedDisagreement": 0.9146709482764247,
+        "expectedDisagreement": 0.996894629541777,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": -0.00642841145728501,
+          "observedDisagreement": 0.6960079365079365,
+          "expectedDisagreement": 0.6915622895622879,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3297139729261416,
+          "observedDisagreement": 0.6180262743792156,
+          "expectedDisagreement": 0.922033653419894,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.20294279454987152,
+          "observedDisagreement": 0.7890039627039627,
+          "expectedDisagreement": 0.989896280102483,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6416994492525585,
+          "observedDisagreement": 0.15333333333333335,
+          "expectedDisagreement": 0.4279461279461298,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:mistralai/mistral-nemotron",
+      "label": "mistralai/mistral-nemotron",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.08771929824561403,
+        "recall": 0.19021739130434784,
+        "f1": 0.12006861063464837,
+        "macroPrecision": 0.10615901027077497,
+        "macroRecall": 0.21100000000000002,
+        "macroF1": 0.13300617175445553,
+        "truePositive": 35,
+        "falsePositive": 364,
+        "falseNegative": 149,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.07831272872876682,
+        "observedDisagreement": 0.9190358168401646,
+        "expectedDisagreement": 0.9971232602275047,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.08862459686662683,
+          "observedDisagreement": 0.6292222222222225,
+          "expectedDisagreement": 0.6904094844549369,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.30701974198029724,
+          "observedDisagreement": 0.6357658803872428,
+          "expectedDisagreement": 0.9174372184916799,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.1781869538869998,
+          "observedDisagreement": 0.8141575646575646,
+          "expectedDisagreement": 0.9906846435553143,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.5038150807899484,
+          "observedDisagreement": 0.22333333333333327,
+          "expectedDisagreement": 0.4501010101010121,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+      "label": "nvidia/nemotron-3-super-120b-a12b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.09011627906976744,
+        "recall": 0.16847826086956522,
+        "f1": 0.11742424242424243,
+        "macroPrecision": 0.0934949494949495,
+        "macroRecall": 0.1758333333333333,
+        "macroF1": 0.11739267921620863,
+        "truePositive": 31,
+        "falsePositive": 313,
+        "falseNegative": 153,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.06616381157932372,
+        "observedDisagreement": 0.9312224816246554,
+        "expectedDisagreement": 0.9972011078297991,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.022443149250796046,
+          "observedDisagreement": 0.6650317460317461,
+          "expectedDisagreement": 0.6802998163452721,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3507810911293584,
+          "observedDisagreement": 0.5883849206349209,
+          "expectedDisagreement": 0.9062966475490595,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.16848053963356546,
+          "observedDisagreement": 0.8240101010101012,
+          "expectedDisagreement": 0.9909691117114395,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6017196497594083,
+          "observedDisagreement": 0.17,
+          "expectedDisagreement": 0.42683501683501845,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+      "label": "nvidia/nemotron-3-ultra-550b-a55b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.08421052631578947,
+        "recall": 0.17391304347826086,
+        "f1": 0.11347517730496454,
+        "macroPrecision": 0.08808152958152958,
+        "macroRecall": 0.1825,
+        "macroF1": 0.11426496888941365,
+        "truePositive": 32,
+        "falsePositive": 348,
+        "falseNegative": 152,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.06466982312893832,
+        "observedDisagreement": 0.9328347877612582,
+        "expectedDisagreement": 0.9973320767665689,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.014844910466613292,
+          "observedDisagreement": 0.677388888888889,
+          "expectedDisagreement": 0.6875961928083126,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3527578687692553,
+          "observedDisagreement": 0.5930550618971673,
+          "expectedDisagreement": 0.9162800647254845,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.17499177683985068,
+          "observedDisagreement": 0.8165310552021077,
+          "expectedDisagreement": 0.9897247473175839,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6162504658963858,
+          "observedDisagreement": 0.17333333333333337,
+          "expectedDisagreement": 0.4516835016835031,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:openai/gpt-oss-20b",
+      "label": "openai/gpt-oss-20b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.09651474530831099,
+        "recall": 0.1956521739130435,
+        "f1": 0.12926391382405744,
+        "macroPrecision": 0.09742821067821067,
+        "macroRecall": 0.20633333333333334,
+        "macroF1": 0.12570583040148256,
+        "truePositive": 36,
+        "falsePositive": 337,
+        "falseNegative": 148,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.06964045975687172,
+        "observedDisagreement": 0.9278520105924195,
+        "expectedDisagreement": 0.9973047735394281,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.06947524704760377,
+          "observedDisagreement": 0.6374603174603177,
+          "expectedDisagreement": 0.6850546591455681,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.347634159014486,
+          "observedDisagreement": 0.5971241536241538,
+          "expectedDisagreement": 0.9153209995209011,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.18245810080764502,
+          "observedDisagreement": 0.8098035999947765,
+          "expectedDisagreement": 0.990534675708703,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.5940157958687735,
+          "observedDisagreement": 0.18,
+          "expectedDisagreement": 0.4433670033670041,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    }
+  ],
+  "humans": [
+    {
+      "kind": "human",
+      "id": 21,
+      "label": "H1",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.7850467289719626,
+        "recall": 0.9130434782608695,
+        "f1": 0.8442211055276382,
+        "macroPrecision": 0.8067484737484739,
+        "macroRecall": 0.9089999999999998,
+        "macroF1": 0.8395793735676089,
+        "truePositive": 168,
+        "falsePositive": 46,
+        "falseNegative": 16,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.7696787956013357,
+        "observedDisagreement": 0.22776984126984126,
+        "expectedDisagreement": 0.9889225868912752,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.8666541594810478,
+          "observedDisagreement": 0.08000000000000002,
+          "expectedDisagreement": 0.5999437229437223,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9610897188161527,
+          "observedDisagreement": 0.035,
+          "expectedDisagreement": 0.8995051933608089,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8216589482106285,
+          "observedDisagreement": 0.1748150183150183,
+          "expectedDisagreement": 0.980228705399149,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9491077329808328,
+          "observedDisagreement": 0.023333333333333334,
+          "expectedDisagreement": 0.45848484848484866,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 20,
+      "label": "H2",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.8009478672985783,
+        "recall": 0.9184782608695652,
+        "f1": 0.8556962025316456,
+        "macroPrecision": 0.7845433455433455,
+        "macroRecall": 0.8806666666666668,
+        "macroF1": 0.8135998641880994,
+        "truePositive": 169,
+        "falsePositive": 42,
+        "falseNegative": 15,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.7446988750522336,
+        "observedDisagreement": 0.2525793650793651,
+        "expectedDisagreement": 0.9893390212481121,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.8144313979386488,
+          "observedDisagreement": 0.11966666666666669,
+          "expectedDisagreement": 0.644864838864839,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9666464576927635,
+          "observedDisagreement": 0.03,
+          "expectedDisagreement": 0.899454688310304,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8288347851488955,
+          "observedDisagreement": 0.16781501831501833,
+          "expectedDisagreement": 0.9804271180975613,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9428530196983909,
+          "observedDisagreement": 0.02666666666666667,
+          "expectedDisagreement": 0.4666329966329962,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 19,
+      "label": "H3",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.6179245283018868,
+        "recall": 0.7119565217391305,
+        "f1": 0.6616161616161617,
+        "macroPrecision": 0.6525140415140416,
+        "macroRecall": 0.7215,
+        "macroF1": 0.6718864952041423,
+        "truePositive": 131,
+        "falsePositive": 81,
+        "falseNegative": 53,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.5516021551115732,
+        "observedDisagreement": 0.44447712418300644,
+        "expectedDisagreement": 0.9912561562235074,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.5627337635483687,
+          "observedDisagreement": 0.29955555555555563,
+          "expectedDisagreement": 0.6850644540644548,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9587049559615993,
+          "observedDisagreement": 0.037000000000000005,
+          "expectedDisagreement": 0.8959912953620627,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8164132150323589,
+          "observedDisagreement": 0.17995787545787548,
+          "expectedDisagreement": 0.980233274903718,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9785140707516458,
+          "observedDisagreement": 0.01,
+          "expectedDisagreement": 0.4654208754208752,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 17,
+      "label": "H4",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.20809248554913296,
+        "recall": 0.1956521739130435,
+        "f1": 0.20168067226890757,
+        "macroPrecision": 0.22652380952380954,
+        "macroRecall": 0.21083333333333334,
+        "macroF1": 0.21444444444444447,
+        "truePositive": 36,
+        "falsePositive": 137,
+        "falseNegative": 148,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.14270701733284996,
+        "observedDisagreement": 0.8537063492063491,
+        "expectedDisagreement": 0.9958163270511763,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.1743877040688161,
+          "observedDisagreement": 0.5824285714285715,
+          "expectedDisagreement": 0.7054504569504593,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.5596258815886417,
+          "observedDisagreement": 0.3986406926406926,
+          "expectedDisagreement": 0.9052318834694048,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.31525548038233675,
+          "observedDisagreement": 0.6766269841269843,
+          "expectedDisagreement": 0.9881451617966778,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6965787598004274,
+          "observedDisagreement": 0.14333333333333334,
+          "expectedDisagreement": 0.472390572390572,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 18,
+      "label": "H5",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.7757009345794392,
+        "recall": 0.9021739130434783,
+        "f1": 0.8341708542713567,
+        "macroPrecision": 0.7717484737484738,
+        "macroRecall": 0.8849999999999999,
+        "macroF1": 0.8125952465834818,
+        "truePositive": 166,
+        "falsePositive": 48,
+        "falseNegative": 18,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.743959845907515,
+        "observedDisagreement": 0.25326984126984126,
+        "expectedDisagreement": 0.9891801626488509,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.8401174238356065,
+          "observedDisagreement": 0.09666666666666668,
+          "expectedDisagreement": 0.6046103896103892,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.9241867118784254,
+          "observedDisagreement": 0.06833333333333334,
+          "expectedDisagreement": 0.9013371537685265,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.8052025562238325,
+          "observedDisagreement": 0.19095787545787546,
+          "expectedDisagreement": 0.9802894317098747,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9356539322596952,
+          "observedDisagreement": 0.03,
+          "expectedDisagreement": 0.4662289562289559,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "kind": "llm",
+      "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+      "label": "deepseek-ai/deepseek-v4-pro-0813",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.09651474530831099,
+        "recall": 0.1956521739130435,
+        "f1": 0.12926391382405744,
+        "macroPrecision": 0.11039033189033187,
+        "macroRecall": 0.21550000000000005,
+        "macroF1": 0.14042152292152293,
+        "truePositive": 36,
+        "falsePositive": 337,
+        "falseNegative": 148,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.08247981163580587,
+        "observedDisagreement": 0.9146709482764247,
+        "expectedDisagreement": 0.996894629541777,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": -0.00642841145728501,
+          "observedDisagreement": 0.6960079365079365,
+          "expectedDisagreement": 0.6915622895622879,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3297139729261416,
+          "observedDisagreement": 0.6180262743792156,
+          "expectedDisagreement": 0.922033653419894,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.20294279454987152,
+          "observedDisagreement": 0.7890039627039627,
+          "expectedDisagreement": 0.989896280102483,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6416994492525585,
+          "observedDisagreement": 0.15333333333333335,
+          "expectedDisagreement": 0.4279461279461298,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:mistralai/mistral-nemotron",
+      "label": "mistralai/mistral-nemotron",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.08771929824561403,
+        "recall": 0.19021739130434784,
+        "f1": 0.12006861063464837,
+        "macroPrecision": 0.10615901027077497,
+        "macroRecall": 0.21100000000000002,
+        "macroF1": 0.13300617175445553,
+        "truePositive": 35,
+        "falsePositive": 364,
+        "falseNegative": 149,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.07831272872876682,
+        "observedDisagreement": 0.9190358168401646,
+        "expectedDisagreement": 0.9971232602275047,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.08862459686662683,
+          "observedDisagreement": 0.6292222222222225,
+          "expectedDisagreement": 0.6904094844549369,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.30701974198029724,
+          "observedDisagreement": 0.6357658803872428,
+          "expectedDisagreement": 0.9174372184916799,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.1781869538869998,
+          "observedDisagreement": 0.8141575646575646,
+          "expectedDisagreement": 0.9906846435553143,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.5038150807899484,
+          "observedDisagreement": 0.22333333333333327,
+          "expectedDisagreement": 0.4501010101010121,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+      "label": "nvidia/nemotron-3-super-120b-a12b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.09011627906976744,
+        "recall": 0.16847826086956522,
+        "f1": 0.11742424242424243,
+        "macroPrecision": 0.0934949494949495,
+        "macroRecall": 0.1758333333333333,
+        "macroF1": 0.11739267921620863,
+        "truePositive": 31,
+        "falsePositive": 313,
+        "falseNegative": 153,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.06616381157932372,
+        "observedDisagreement": 0.9312224816246554,
+        "expectedDisagreement": 0.9972011078297991,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.022443149250796046,
+          "observedDisagreement": 0.6650317460317461,
+          "expectedDisagreement": 0.6802998163452721,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3507810911293584,
+          "observedDisagreement": 0.5883849206349209,
+          "expectedDisagreement": 0.9062966475490595,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.16848053963356546,
+          "observedDisagreement": 0.8240101010101012,
+          "expectedDisagreement": 0.9909691117114395,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6017196497594083,
+          "observedDisagreement": 0.17,
+          "expectedDisagreement": 0.42683501683501845,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+      "label": "nvidia/nemotron-3-ultra-550b-a55b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.08421052631578947,
+        "recall": 0.17391304347826086,
+        "f1": 0.11347517730496454,
+        "macroPrecision": 0.08808152958152958,
+        "macroRecall": 0.1825,
+        "macroF1": 0.11426496888941365,
+        "truePositive": 32,
+        "falsePositive": 348,
+        "falseNegative": 152,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.06466982312893832,
+        "observedDisagreement": 0.9328347877612582,
+        "expectedDisagreement": 0.9973320767665689,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.014844910466613292,
+          "observedDisagreement": 0.677388888888889,
+          "expectedDisagreement": 0.6875961928083126,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3527578687692553,
+          "observedDisagreement": 0.5930550618971673,
+          "expectedDisagreement": 0.9162800647254845,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.17499177683985068,
+          "observedDisagreement": 0.8165310552021077,
+          "expectedDisagreement": 0.9897247473175839,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6162504658963858,
+          "observedDisagreement": 0.17333333333333337,
+          "expectedDisagreement": 0.4516835016835031,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:openai/gpt-oss-20b",
+      "label": "openai/gpt-oss-20b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.09651474530831099,
+        "recall": 0.1956521739130435,
+        "f1": 0.12926391382405744,
+        "macroPrecision": 0.09742821067821067,
+        "macroRecall": 0.20633333333333334,
+        "macroF1": 0.12570583040148256,
+        "truePositive": 36,
+        "falsePositive": 337,
+        "falseNegative": 148,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.06964045975687172,
+        "observedDisagreement": 0.9278520105924195,
+        "expectedDisagreement": 0.9973047735394281,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.06947524704760377,
+          "observedDisagreement": 0.6374603174603177,
+          "expectedDisagreement": 0.6850546591455681,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.347634159014486,
+          "observedDisagreement": 0.5971241536241538,
+          "expectedDisagreement": 0.9153209995209011,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.18245810080764502,
+          "observedDisagreement": 0.8098035999947765,
+          "expectedDisagreement": 0.990534675708703,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.5940157958687735,
+          "observedDisagreement": 0.18,
+          "expectedDisagreement": 0.4433670033670041,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    }
+  ],
+  "humansVsSynthetic": [
+    {
+      "kind": "human",
+      "id": 21,
+      "label": "H1",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.13551401869158877,
+        "recall": 0.09119496855345911,
+        "f1": 0.10902255639097744,
+        "macroPrecision": 0.13864163614163613,
+        "macroRecall": 0.0937931512931513,
+        "macroF1": 0.10505172605172607,
+        "truePositive": 29,
+        "falsePositive": 185,
+        "falseNegative": 289,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.058277077809933964,
+        "observedDisagreement": 0.9390776738180828,
+        "expectedDisagreement": 0.9971910544920883,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": -0.03175908342820932,
+          "observedDisagreement": 0.7095793650793653,
+          "expectedDisagreement": 0.68773745390412,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3615985147245645,
+          "observedDisagreement": 0.5804866522366523,
+          "expectedDisagreement": 0.9092814876303176,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.18196801576993538,
+          "observedDisagreement": 0.810496891996892,
+          "expectedDisagreement": 0.990788755967452,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6317663817663832,
+          "observedDisagreement": 0.15666666666666665,
+          "expectedDisagreement": 0.42545454545454703,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 20,
+      "label": "H2",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.16587677725118483,
+        "recall": 0.11006289308176101,
+        "f1": 0.1323251417769376,
+        "macroPrecision": 0.21864163614163615,
+        "macroRecall": 0.1217931512931513,
+        "macroF1": 0.144972360972361,
+        "truePositive": 35,
+        "falsePositive": 176,
+        "falseNegative": 283,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.08290550171451594,
+        "observedDisagreement": 0.9142833015237106,
+        "expectedDisagreement": 0.9969346705633618,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.0715968796643911,
+          "observedDisagreement": 0.6529126984126986,
+          "expectedDisagreement": 0.7032642223096761,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.364512407937847,
+          "observedDisagreement": 0.5778199855699856,
+          "expectedDisagreement": 0.9092545516033816,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.1900997956878019,
+          "observedDisagreement": 0.8024968919968919,
+          "expectedDisagreement": 0.9908589820376777,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6013937282229972,
+          "observedDisagreement": 0.17333333333333337,
+          "expectedDisagreement": 0.43484848484848565,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 19,
+      "label": "H3",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.2169811320754717,
+        "recall": 0.14465408805031446,
+        "f1": 0.17358490566037735,
+        "macroPrecision": 0.2328943833943834,
+        "macroRecall": 0.1529922854922855,
+        "macroF1": 0.1718513153513154,
+        "truePositive": 46,
+        "falsePositive": 166,
+        "falseNegative": 272,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.09974343677726771,
+        "observedDisagreement": 0.8971251722134072,
+        "expectedDisagreement": 0.9965216682252053,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.2396140740497793,
+          "observedDisagreement": 0.5278809523809523,
+          "expectedDisagreement": 0.694227673561005,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3663075433412799,
+          "observedDisagreement": 0.5740422077922078,
+          "expectedDisagreement": 0.9058687723994205,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.19926275763510304,
+          "observedDisagreement": 0.7931484071484072,
+          "expectedDisagreement": 0.9905226898225978,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6069593647828125,
+          "observedDisagreement": 0.17,
+          "expectedDisagreement": 0.4325252525252534,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 17,
+      "label": "H4",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.37572254335260113,
+        "recall": 0.20440251572327045,
+        "f1": 0.26476578411405294,
+        "macroPrecision": 0.3798571428571428,
+        "macroRecall": 0.20398384948384948,
+        "macroF1": 0.25205810855810856,
+        "truePositive": 65,
+        "falsePositive": 108,
+        "falseNegative": 253,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.15411925338985188,
+        "observedDisagreement": 0.8427684537684538,
+        "expectedDisagreement": 0.9963206482070117,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.17449675924900354,
+          "observedDisagreement": 0.5795555555555556,
+          "expectedDisagreement": 0.7020633317299985,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3354672585108399,
+          "observedDisagreement": 0.6060049672549672,
+          "expectedDisagreement": 0.9119264250200265,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.2579281644098599,
+          "observedDisagreement": 0.7362627960275019,
+          "expectedDisagreement": 0.9921718635797321,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.525378586104559,
+          "observedDisagreement": 0.20999999999999996,
+          "expectedDisagreement": 0.44245791245791316,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "human",
+      "id": 18,
+      "label": "H5",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.13551401869158877,
+        "recall": 0.09119496855345911,
+        "f1": 0.10902255639097744,
+        "macroPrecision": 0.15364163614163615,
+        "macroRecall": 0.0910153735153735,
+        "macroF1": 0.10405172605172608,
+        "truePositive": 29,
+        "falsePositive": 185,
+        "falseNegative": 289,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.05764642935146902,
+        "observedDisagreement": 0.9397125944530035,
+        "expectedDisagreement": 0.9971974678318352,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.006321746659779914,
+          "observedDisagreement": 0.6855793650793655,
+          "expectedDisagreement": 0.6899409972743297,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.3584056803507334,
+          "observedDisagreement": 0.5843199855699855,
+          "expectedDisagreement": 0.9107312326103657,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.19011986368494593,
+          "observedDisagreement": 0.8023064158064157,
+          "expectedDisagreement": 0.9906483439103733,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.6084225221033046,
+          "observedDisagreement": 0.17,
+          "expectedDisagreement": 0.434141414141415,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    }
+  ],
+  "modelsVsSynthetic": [
+    {
+      "kind": "llm",
+      "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+      "label": "deepseek-ai/deepseek-v4-pro-0813",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.6193029490616622,
+        "recall": 0.7264150943396226,
+        "f1": 0.6685962373371924,
+        "macroPrecision": 0.6314577089577091,
+        "macroRecall": 0.7329262959262961,
+        "macroF1": 0.6682407449653099,
+        "truePositive": 231,
+        "falsePositive": 142,
+        "falseNegative": 87,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.5415989341760523,
+        "observedDisagreement": 0.45484573613520973,
+        "expectedDisagreement": 0.992244063214933,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.7208597969400903,
+          "observedDisagreement": 0.16307142857142856,
+          "expectedDisagreement": 0.5841918390251717,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.6976732586498495,
+          "observedDisagreement": 0.2775373515373516,
+          "expectedDisagreement": 0.9180046406014472,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.6393394506204083,
+          "observedDisagreement": 0.3562250625191801,
+          "expectedDisagreement": 0.987701768690694,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.834985525046058,
+          "observedDisagreement": 0.06333333333333334,
+          "expectedDisagreement": 0.383804713804717,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:mistralai/mistral-nemotron",
+      "label": "mistralai/mistral-nemotron",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.47869674185463656,
+        "recall": 0.60062893081761,
+        "f1": 0.5327754532775453,
+        "macroPrecision": 0.5293015533486123,
+        "macroRecall": 0.6170496170496169,
+        "macroF1": 0.5562445447620636,
+        "truePositive": 191,
+        "falsePositive": 208,
+        "falseNegative": 127,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.4221914475579649,
+        "observedDisagreement": 0.5741202977804611,
+        "expectedDisagreement": 0.9936168223090746,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.7173315380592348,
+          "observedDisagreement": 0.17617460317460318,
+          "expectedDisagreement": 0.6232552509219141,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.6093279052637576,
+          "observedDisagreement": 0.35694860552916824,
+          "expectedDisagreement": 0.9136782747950242,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.5536386720568578,
+          "observedDisagreement": 0.44148842457970244,
+          "expectedDisagreement": 0.9890830520961696,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.7921390778533661,
+          "observedDisagreement": 0.08333333333333334,
+          "expectedDisagreement": 0.400909090909096,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+      "label": "nvidia/nemotron-3-super-120b-a12b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.6133720930232558,
+        "recall": 0.6635220125786163,
+        "f1": 0.6374622356495468,
+        "macroPrecision": 0.6082086247086248,
+        "macroRecall": 0.6887266622266622,
+        "macroF1": 0.6333230934124728,
+        "truePositive": 211,
+        "falsePositive": 133,
+        "falseNegative": 107,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.49891742511018145,
+        "observedDisagreement": 0.4974984898142793,
+        "expectedDisagreement": 0.9928473164800685,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.7291437685200479,
+          "observedDisagreement": 0.16116666666666668,
+          "expectedDisagreement": 0.5950266153599487,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.7591403540706717,
+          "observedDisagreement": 0.21720057720057726,
+          "expectedDisagreement": 0.901772384338334,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.5895144407882689,
+          "observedDisagreement": 0.40578840603840605,
+          "expectedDisagreement": 0.9885570805892778,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.9215254535846404,
+          "observedDisagreement": 0.03,
+          "expectedDisagreement": 0.3822895622895653,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+      "label": "nvidia/nemotron-3-ultra-550b-a55b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.5763157894736842,
+        "recall": 0.6886792452830188,
+        "f1": 0.6275071633237822,
+        "macroPrecision": 0.5863244631185808,
+        "macroRecall": 0.6804967254967255,
+        "macroF1": 0.6160773703420762,
+        "truePositive": 219,
+        "falsePositive": 161,
+        "falseNegative": 99,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.4864752020371593,
+        "observedDisagreement": 0.5099387834387834,
+        "expectedDisagreement": 0.9930168620127342,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.7127845287997253,
+          "observedDisagreement": 0.17105555555555554,
+          "expectedDisagreement": 0.5955652557319202,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.6624501564416231,
+          "observedDisagreement": 0.30815051615051614,
+          "expectedDisagreement": 0.9129037445316536,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.5654570777777062,
+          "observedDisagreement": 0.4293353035853035,
+          "expectedDisagreement": 0.9880158705373497,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.8362418327681759,
+          "observedDisagreement": 0.06666666666666668,
+          "expectedDisagreement": 0.40710437710438024,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    },
+    {
+      "kind": "llm",
+      "id": "llm:openai/gpt-oss-20b",
+      "label": "openai/gpt-oss-20b",
+      "itemsAnnotated": 50,
+      "f1": {
+        "precision": 0.517426273458445,
+        "recall": 0.6069182389937107,
+        "f1": 0.5586107091172214,
+        "macroPrecision": 0.5353449050949053,
+        "macroRecall": 0.6368998223998225,
+        "macroF1": 0.5701769322157386,
+        "truePositive": 193,
+        "falsePositive": 180,
+        "falseNegative": 125,
+        "itemsCompared": 50,
+        "itemsScored": 50
+      },
+      "alpha": {
+        "alpha": 0.4273487866626319,
+        "observedDisagreement": 0.5690917562829327,
+        "expectedDisagreement": 0.993784249519544,
+        "unitsConsidered": 50,
+        "values": 100
+      },
+      "alphaByElement": {
+        "category": {
+          "alpha": 0.720442676722433,
+          "observedDisagreement": 0.1691190476190476,
+          "expectedDisagreement": 0.6049530222863544,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "aspect": {
+          "alpha": 0.7135431271832064,
+          "observedDisagreement": 0.26106387180071383,
+          "expectedDisagreement": 0.9113548899477093,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "sentiment": {
+          "alpha": 0.5494494219282356,
+          "observedDisagreement": 0.4455573162647466,
+          "expectedDisagreement": 0.9889174222605871,
+          "unitsConsidered": 50,
+          "values": 100
+        },
+        "polarity": {
+          "alpha": 0.7654028436018975,
+          "observedDisagreement": 0.09333333333333334,
+          "expectedDisagreement": 0.3978451178451208,
+          "unitsConsidered": 50,
+          "values": 100
+        }
+      }
+    }
+  ],
+  "computedAt": "2026-09-22T20:56:14.190Z"
+}

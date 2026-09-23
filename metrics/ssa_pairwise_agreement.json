@@ -1,0 +1,4936 @@
+{
+  "exportedAt": "2026-09-18T19:18:21.636Z",
+  "dataset": {
+    "id": 17,
+    "name": "SSA - COMPLETO",
+    "taskType": "ssa"
+  },
+  "metrics": {
+    "datasetId": 17,
+    "datasetName": "SSA - COMPLETO",
+    "taskType": "ssa",
+    "annotationFields": [
+      "holder"
+    ],
+    "annotationFieldsRestricted": true,
+    "annotators": [
+      {
+        "kind": "human",
+        "id": 21,
+        "username": "H1"
+      },
+      {
+        "kind": "human",
+        "id": 20,
+        "username": "H2"
+      },
+      {
+        "kind": "human",
+        "id": 19,
+        "username": "H3"
+      },
+      {
+        "kind": "human",
+        "id": 17,
+        "username": "H4"
+      },
+      {
+        "kind": "human",
+        "id": 18,
+        "username": "H5"
+      },
+      {
+        "kind": "llm",
+        "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+        "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+      },
+      {
+        "kind": "llm",
+        "id": "llm:mistralai/mistral-nemotron",
+        "model_id": "mistralai/mistral-nemotron"
+      },
+      {
+        "kind": "llm",
+        "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+        "model_id": "nvidia/nemotron-3-super-120b-a12b"
+      },
+      {
+        "kind": "llm",
+        "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+      },
+      {
+        "kind": "llm",
+        "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+        "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+      },
+      {
+        "kind": "llm",
+        "id": "llm:openai/gpt-oss-20b",
+        "model_id": "openai/gpt-oss-20b"
+      }
+    ],
+    "pairwise": [
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "kappa": 0.7908790460804168,
+        "observed": 0.9823529411764705,
+        "expected": 0.9156131487889273,
+        "bothAnnotated": 50,
+        "agree": 1670
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "kappa": 0.7412085780593874,
+        "observed": 0.98,
+        "expected": 0.9227176857330703,
+        "bothAnnotated": 50,
+        "agree": 1911
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "kappa": 0.7626682686205989,
+        "observed": 0.9793939393939394,
+        "expected": 0.9131761248852158,
+        "bothAnnotated": 50,
+        "agree": 1616
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "kappa": 0.7853384149825836,
+        "observed": 0.985,
+        "expected": 0.9301225694444444,
+        "bothAnnotated": 50,
+        "agree": 2364
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "kappa": 0.6220037285459326,
+        "observed": 0.9753488372093023,
+        "expected": 0.9347846403461332,
+        "bothAnnotated": 50,
+        "agree": 2097
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "kappa": 0.6210333633646525,
+        "observed": 0.9735,
+        "expected": 0.9300729999999999,
+        "bothAnnotated": 50,
+        "agree": 1947
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "kappa": 0.45924550313679235,
+        "observed": 0.9656521739130435,
+        "expected": 0.9364816635160681,
+        "bothAnnotated": 50,
+        "agree": 2221
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.7208685681525014,
+        "observed": 0.978421052631579,
+        "expected": 0.9226925207756232,
+        "bothAnnotated": 50,
+        "agree": 1859
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 0.6521739130434783,
+        "observed": 0.96875,
+        "expected": 0.91015625,
+        "bothAnnotated": 1,
+        "agree": 31
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.27588327386911643,
+        "observed": 0.9653333333333334,
+        "expected": 0.9521255822222222,
+        "bothAnnotated": 50,
+        "agree": 3620
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "kappa": 0.7979870756065927,
+        "observed": 0.98,
+        "expected": 0.9009964334705076,
+        "bothAnnotated": 50,
+        "agree": 1323
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "kappa": 0.8256639241465803,
+        "observed": 0.9808695652173913,
+        "expected": 0.8902669187145558,
+        "bothAnnotated": 50,
+        "agree": 1128
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "kappa": 0.7240352183626089,
+        "observed": 0.98,
+        "expected": 0.9275269841269841,
+        "bothAnnotated": 50,
+        "agree": 2058
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "kappa": 0.7806050193856946,
+        "observed": 0.9807142857142858,
+        "expected": 0.9120959183673469,
+        "bothAnnotated": 50,
+        "agree": 1373
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "kappa": 0.7145402529612528,
+        "observed": 0.9730769230769231,
+        "expected": 0.9056852071005916,
+        "bothAnnotated": 50,
+        "agree": 1265
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "kappa": 0.5282471675495922,
+        "observed": 0.961875,
+        "expected": 0.919184375,
+        "bothAnnotated": 50,
+        "agree": 1539
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.7755128370532832,
+        "observed": 0.9758333333333333,
+        "expected": 0.8923472222222223,
+        "bothAnnotated": 50,
+        "agree": 1171
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.8892733564013842,
+        "bothAnnotated": 1,
+        "agree": 17
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.31493722296754456,
+        "observed": 0.9626666666666667,
+        "expected": 0.9455037777777778,
+        "bothAnnotated": 50,
+        "agree": 2888
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "kappa": 0.7830231552811557,
+        "observed": 0.9785185185185186,
+        "expected": 0.9009964334705076,
+        "bothAnnotated": 50,
+        "agree": 1321
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "kappa": 0.7788533228867863,
+        "observed": 0.9825,
+        "expected": 0.9208669999999999,
+        "bothAnnotated": 50,
+        "agree": 1965
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "kappa": 0.7074282429269497,
+        "observed": 0.9746666666666667,
+        "expected": 0.9134115555555555,
+        "bothAnnotated": 50,
+        "agree": 1462
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "kappa": 0.6766312158666281,
+        "observed": 0.972,
+        "expected": 0.9134115555555555,
+        "bothAnnotated": 50,
+        "agree": 1458
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "kappa": 0.5431434676884542,
+        "observed": 0.96125,
+        "expected": 0.91518125,
+        "bothAnnotated": 50,
+        "agree": 1538
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.7500565482922416,
+        "observed": 0.9738461538461538,
+        "expected": 0.895360946745562,
+        "bothAnnotated": 50,
+        "agree": 1266
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.909297052154195,
+        "bothAnnotated": 1,
+        "agree": 21
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.3127939108934879,
+        "observed": 0.9628571428571429,
+        "expected": 0.9459509196271102,
+        "bothAnnotated": 50,
+        "agree": 3033
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "kappa": 0.7622328689853124,
+        "observed": 0.9805405405405405,
+        "expected": 0.9181574872169467,
+        "bothAnnotated": 50,
+        "agree": 1814
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "kappa": 0.7788275127652022,
+        "observed": 0.9775,
+        "expected": 0.8982694444444446,
+        "bothAnnotated": 50,
+        "agree": 1173
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "kappa": 0.7118090903646921,
+        "observed": 0.9681818181818181,
+        "expected": 0.8895933884297521,
+        "bothAnnotated": 50,
+        "agree": 1065
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "kappa": 0.4958322129604735,
+        "observed": 0.9566666666666667,
+        "expected": 0.9140497777777777,
+        "bothAnnotated": 50,
+        "agree": 1435
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.7593979887966525,
+        "observed": 0.9730434782608696,
+        "expected": 0.8879621928166351,
+        "bothAnnotated": 50,
+        "agree": 1119
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.8579881656804735,
+        "bothAnnotated": 1,
+        "agree": 13
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.2897949187824325,
+        "observed": 0.96,
+        "expected": 0.9436782401902497,
+        "bothAnnotated": 50,
+        "agree": 2784
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "kappa": 0.6286140404443714,
+        "observed": 0.9760869565217392,
+        "expected": 0.9356113421550095,
+        "bothAnnotated": 50,
+        "agree": 2245
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "kappa": 0.5742808575049695,
+        "observed": 0.972,
+        "expected": 0.934228938271605,
+        "bothAnnotated": 50,
+        "agree": 2187
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "kappa": 0.4734903473230355,
+        "observed": 0.96625,
+        "expected": 0.9358986111111111,
+        "bothAnnotated": 50,
+        "agree": 2319
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.6701804307055557,
+        "observed": 0.9745,
+        "expected": 0.922685,
+        "bothAnnotated": 50,
+        "agree": 1949
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 0.6538461538461537,
+        "observed": 0.9722222222222222,
+        "expected": 0.9197530864197531,
+        "bothAnnotated": 1,
+        "agree": 35
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.2742970419600393,
+        "observed": 0.966,
+        "expected": 0.9531488749999999,
+        "bothAnnotated": 50,
+        "agree": 3864
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "kappa": 0.7771646859083191,
+        "observed": 0.9752380952380952,
+        "expected": 0.8888780045351474,
+        "bothAnnotated": 50,
+        "agree": 1024
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "kappa": 0.5651642712752957,
+        "observed": 0.9627586206896551,
+        "expected": 0.9143552913198573,
+        "bothAnnotated": 50,
+        "agree": 1396
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.7127424502823474,
+        "observed": 0.9723076923076923,
+        "expected": 0.9035976331360946,
+        "bothAnnotated": 50,
+        "agree": 1264
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.8673469387755102,
+        "bothAnnotated": 1,
+        "agree": 14
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.3618659787423763,
+        "observed": 0.9618867924528302,
+        "expected": 0.940273976504094,
+        "bothAnnotated": 50,
+        "agree": 2549
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "kappa": 0.5959728972633891,
+        "observed": 0.9629629629629629,
+        "expected": 0.9083303155006859,
+        "bothAnnotated": 50,
+        "agree": 1300
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.6794015495591773,
+        "observed": 0.9666666666666667,
+        "expected": 0.8960277777777778,
+        "bothAnnotated": 50,
+        "agree": 1160
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.8472222222222221,
+        "bothAnnotated": 1,
+        "agree": 12
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.34958931277714317,
+        "observed": 0.9618518518518518,
+        "expected": 0.9413475994513032,
+        "bothAnnotated": 50,
+        "agree": 2597
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "kappa": 0.619582327631441,
+        "observed": 0.9655172413793104,
+        "expected": 0.9093555291319858,
+        "bothAnnotated": 50,
+        "agree": 1400
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.9002770083102491,
+        "bothAnnotated": 1,
+        "agree": 19
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.3738464543544704,
+        "observed": 0.9662295081967213,
+        "expected": 0.9460667562483205,
+        "bothAnnotated": 50,
+        "agree": 2947
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.8828125,
+        "bothAnnotated": 1,
+        "agree": 16
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 0.3562236136321931,
+        "observed": 0.963728813559322,
+        "expected": 0.9436587187589772,
+        "bothAnnotated": 50,
+        "agree": 2843
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "kappa": 1,
+        "observed": 1,
+        "expected": 0.9592013888888888,
+        "bothAnnotated": 1,
+        "agree": 48
+      }
+    ],
+    "pairwiseF1": [
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "precision": 0.7228915662650602,
+        "recall": 0.8955223880597015,
+        "f1": 0.8,
+        "truePositive": 60,
+        "falsePositive": 23,
+        "falseNegative": 7,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "precision": 0.7108433734939759,
+        "recall": 0.7972972972972973,
+        "f1": 0.7515923566878981,
+        "truePositive": 59,
+        "falsePositive": 24,
+        "falseNegative": 15,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "precision": 0.6987951807228916,
+        "recall": 0.8656716417910447,
+        "f1": 0.7733333333333333,
+        "truePositive": 58,
+        "falsePositive": 25,
+        "falseNegative": 9,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "precision": 0.8313253012048193,
+        "recall": 0.7582417582417582,
+        "f1": 0.7931034482758621,
+        "truePositive": 69,
+        "falsePositive": 14,
+        "falseNegative": 22,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "precision": 0.5542168674698795,
+        "recall": 0.7419354838709677,
+        "f1": 0.6344827586206897,
+        "truePositive": 46,
+        "falsePositive": 37,
+        "falseNegative": 16,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "precision": 0.5542168674698795,
+        "recall": 0.7419354838709677,
+        "f1": 0.6344827586206897,
+        "truePositive": 46,
+        "falsePositive": 37,
+        "falseNegative": 16,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "precision": 0.43373493975903615,
+        "recall": 0.5294117647058824,
+        "f1": 0.4768211920529801,
+        "truePositive": 36,
+        "falsePositive": 47,
+        "falseNegative": 32,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.6746987951807228,
+        "recall": 0.8,
+        "f1": 0.7320261437908496,
+        "truePositive": 56,
+        "falsePositive": 27,
+        "falseNegative": 14,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.3333333333333333,
+        "recall": 1,
+        "f1": 0.5,
+        "truePositive": 1,
+        "falsePositive": 2,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.3253012048192771,
+        "recall": 0.26732673267326734,
+        "f1": 0.29347826086956524,
+        "truePositive": 27,
+        "falsePositive": 56,
+        "falseNegative": 74,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "precision": 0.8507462686567164,
+        "recall": 0.7702702702702703,
+        "f1": 0.8085106382978723,
+        "truePositive": 57,
+        "falsePositive": 10,
+        "falseNegative": 17,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "precision": 0.835820895522388,
+        "recall": 0.835820895522388,
+        "f1": 0.835820895522388,
+        "truePositive": 56,
+        "falsePositive": 11,
+        "falseNegative": 11,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "precision": 0.8656716417910447,
+        "recall": 0.6373626373626373,
+        "f1": 0.7341772151898734,
+        "truePositive": 58,
+        "falsePositive": 9,
+        "falseNegative": 33,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "precision": 0.7611940298507462,
+        "recall": 0.8225806451612904,
+        "f1": 0.7906976744186046,
+        "truePositive": 51,
+        "falsePositive": 16,
+        "falseNegative": 11,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "precision": 0.7014925373134329,
+        "recall": 0.7580645161290323,
+        "f1": 0.7286821705426356,
+        "truePositive": 47,
+        "falsePositive": 20,
+        "falseNegative": 15,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "precision": 0.5522388059701493,
+        "recall": 0.5441176470588235,
+        "f1": 0.5481481481481482,
+        "truePositive": 37,
+        "falsePositive": 30,
+        "falseNegative": 31,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.8059701492537313,
+        "recall": 0.7714285714285715,
+        "f1": 0.7883211678832117,
+        "truePositive": 54,
+        "falsePositive": 13,
+        "falseNegative": 16,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6666666666666666,
+        "truePositive": 1,
+        "falsePositive": 1,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.417910447761194,
+        "recall": 0.27722772277227725,
+        "f1": 0.3333333333333333,
+        "truePositive": 28,
+        "falsePositive": 39,
+        "falseNegative": 73,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "precision": 0.7567567567567568,
+        "recall": 0.835820895522388,
+        "f1": 0.7943262411347518,
+        "truePositive": 56,
+        "falsePositive": 18,
+        "falseNegative": 11,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "precision": 0.8783783783783784,
+        "recall": 0.7142857142857143,
+        "f1": 0.7878787878787878,
+        "truePositive": 65,
+        "falsePositive": 9,
+        "falseNegative": 26,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "precision": 0.6621621621621622,
+        "recall": 0.7903225806451613,
+        "f1": 0.7205882352941176,
+        "truePositive": 49,
+        "falsePositive": 25,
+        "falseNegative": 13,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "precision": 0.6351351351351351,
+        "recall": 0.7580645161290323,
+        "f1": 0.6911764705882353,
+        "truePositive": 47,
+        "falsePositive": 27,
+        "falseNegative": 15,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "precision": 0.5405405405405406,
+        "recall": 0.5882352941176471,
+        "f1": 0.5633802816901409,
+        "truePositive": 40,
+        "falsePositive": 34,
+        "falseNegative": 28,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.7432432432432432,
+        "recall": 0.7857142857142857,
+        "f1": 0.7638888888888888,
+        "truePositive": 55,
+        "falsePositive": 19,
+        "falseNegative": 15,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6666666666666666,
+        "truePositive": 1,
+        "falsePositive": 1,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.3918918918918919,
+        "recall": 0.2871287128712871,
+        "f1": 0.3314285714285714,
+        "truePositive": 29,
+        "falsePositive": 45,
+        "falseNegative": 72,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "precision": 0.9104477611940298,
+        "recall": 0.6703296703296703,
+        "f1": 0.7721518987341772,
+        "truePositive": 61,
+        "falsePositive": 6,
+        "falseNegative": 30,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "precision": 0.7611940298507462,
+        "recall": 0.8225806451612904,
+        "f1": 0.7906976744186046,
+        "truePositive": 51,
+        "falsePositive": 16,
+        "falseNegative": 11,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "precision": 0.7014925373134329,
+        "recall": 0.7580645161290323,
+        "f1": 0.7286821705426356,
+        "truePositive": 47,
+        "falsePositive": 20,
+        "falseNegative": 15,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "precision": 0.5223880597014925,
+        "recall": 0.5147058823529411,
+        "f1": 0.5185185185185185,
+        "truePositive": 35,
+        "falsePositive": 32,
+        "falseNegative": 33,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.7910447761194029,
+        "recall": 0.7571428571428571,
+        "f1": 0.7737226277372263,
+        "truePositive": 53,
+        "falsePositive": 14,
+        "falseNegative": 17,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6666666666666666,
+        "truePositive": 1,
+        "falsePositive": 1,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.3880597014925373,
+        "recall": 0.25742574257425743,
+        "f1": 0.30952380952380953,
+        "truePositive": 26,
+        "falsePositive": 41,
+        "falseNegative": 75,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "precision": 0.5384615384615384,
+        "recall": 0.7903225806451613,
+        "f1": 0.6405228758169934,
+        "truePositive": 49,
+        "falsePositive": 42,
+        "falseNegative": 13,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "precision": 0.4945054945054945,
+        "recall": 0.7258064516129032,
+        "f1": 0.5882352941176471,
+        "truePositive": 45,
+        "falsePositive": 46,
+        "falseNegative": 17,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "precision": 0.42857142857142855,
+        "recall": 0.5735294117647058,
+        "f1": 0.49056603773584906,
+        "truePositive": 39,
+        "falsePositive": 52,
+        "falseNegative": 29,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.6043956043956044,
+        "recall": 0.7857142857142857,
+        "f1": 0.6832298136645962,
+        "truePositive": 55,
+        "falsePositive": 36,
+        "falseNegative": 15,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.3333333333333333,
+        "recall": 1,
+        "f1": 0.5,
+        "truePositive": 1,
+        "falsePositive": 2,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.3076923076923077,
+        "recall": 0.27722772277227725,
+        "f1": 0.2916666666666667,
+        "truePositive": 28,
+        "falsePositive": 63,
+        "falseNegative": 73,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "precision": 0.7903225806451613,
+        "recall": 0.7903225806451613,
+        "f1": 0.7903225806451613,
+        "truePositive": 49,
+        "falsePositive": 13,
+        "falseNegative": 13,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "precision": 0.6129032258064516,
+        "recall": 0.5588235294117647,
+        "f1": 0.5846153846153846,
+        "truePositive": 38,
+        "falsePositive": 24,
+        "falseNegative": 30,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.7741935483870968,
+        "recall": 0.6857142857142857,
+        "f1": 0.7272727272727273,
+        "truePositive": 48,
+        "falsePositive": 14,
+        "falseNegative": 22,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6666666666666666,
+        "truePositive": 1,
+        "falsePositive": 1,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.5,
+        "recall": 0.3069306930693069,
+        "f1": 0.3803680981595092,
+        "truePositive": 31,
+        "falsePositive": 31,
+        "falseNegative": 70,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "precision": 0.6451612903225806,
+        "recall": 0.5882352941176471,
+        "f1": 0.6153846153846154,
+        "truePositive": 40,
+        "falsePositive": 22,
+        "falseNegative": 28,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.7419354838709677,
+        "recall": 0.6571428571428571,
+        "f1": 0.696969696969697,
+        "truePositive": 46,
+        "falsePositive": 16,
+        "falseNegative": 24,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6666666666666666,
+        "truePositive": 1,
+        "falsePositive": 1,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.4838709677419355,
+        "recall": 0.297029702970297,
+        "f1": 0.36809815950920244,
+        "truePositive": 30,
+        "falsePositive": 32,
+        "falseNegative": 71,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "precision": 0.6470588235294118,
+        "recall": 0.6285714285714286,
+        "f1": 0.6376811594202898,
+        "truePositive": 44,
+        "falsePositive": 24,
+        "falseNegative": 26,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6666666666666666,
+        "truePositive": 1,
+        "falsePositive": 1,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.4852941176470588,
+        "recall": 0.32673267326732675,
+        "f1": 0.3905325443786982,
+        "truePositive": 33,
+        "falsePositive": 35,
+        "falseNegative": 68,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "precision": 0.3333333333333333,
+        "recall": 1,
+        "f1": 0.5,
+        "truePositive": 1,
+        "falsePositive": 2,
+        "falseNegative": 0,
+        "itemsCompared": 2
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 0.45714285714285713,
+        "recall": 0.31683168316831684,
+        "f1": 0.3742690058479532,
+        "truePositive": 32,
+        "falsePositive": 38,
+        "falseNegative": 69,
+        "itemsCompared": 50
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "precision": 1,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "truePositive": 1,
+        "falsePositive": 0,
+        "falseNegative": 1,
+        "itemsCompared": 2
+      }
+    ],
+    "elementKappas": [
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7908790460804168,
+            "observed": 0.9823529411764705,
+            "expected": 0.9156131487889273,
+            "bothAnnotated": 50,
+            "agree": 1670,
+            "totalDecisions": 1700
+          },
+          "aspect": {
+            "kappa": 0.9741401498657235,
+            "observed": 0.9974647887323944,
+            "expected": 0.901963419956358,
+            "bothAnnotated": 50,
+            "agree": 3541,
+            "totalDecisions": 3550
+          },
+          "sentiment": {
+            "kappa": 0.9926802994171853,
+            "observed": 0.9996226415094339,
+            "expected": 0.9484461848819272,
+            "bothAnnotated": 50,
+            "agree": 7947,
+            "totalDecisions": 7950
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7412085780593874,
+            "observed": 0.98,
+            "expected": 0.9227176857330703,
+            "bothAnnotated": 50,
+            "agree": 1911,
+            "totalDecisions": 1950
+          },
+          "aspect": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8967144575629316,
+            "bothAnnotated": 50,
+            "agree": 3350,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.9479281106738611,
+            "bothAnnotated": 50,
+            "agree": 7850,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7626682686205989,
+            "observed": 0.9793939393939394,
+            "expected": 0.9131761248852158,
+            "bothAnnotated": 50,
+            "agree": 1616,
+            "totalDecisions": 1650
+          },
+          "aspect": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8967144575629316,
+            "bothAnnotated": 50,
+            "agree": 3350,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9950844411604471,
+            "observed": 0.9997452229299363,
+            "expected": 0.9481692563592844,
+            "bothAnnotated": 50,
+            "agree": 7848,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7853384149825836,
+            "observed": 0.985,
+            "expected": 0.9301225694444444,
+            "bothAnnotated": 50,
+            "agree": 2364,
+            "totalDecisions": 2400
+          },
+          "aspect": {
+            "kappa": 0.9971024220292042,
+            "observed": 0.9997014925373134,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3349,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9975479247946981,
+            "observed": 0.9998726114649682,
+            "expected": 0.9480486835165726,
+            "bothAnnotated": 50,
+            "agree": 7849,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6220037285459326,
+            "observed": 0.9753488372093023,
+            "expected": 0.9347846403461332,
+            "bothAnnotated": 50,
+            "agree": 2097,
+            "totalDecisions": 2150
+          },
+          "aspect": {
+            "kappa": 0.9829659660000686,
+            "observed": 0.9982857142857143,
+            "expected": 0.8993611428571429,
+            "bothAnnotated": 50,
+            "agree": 3494,
+            "totalDecisions": 3500
+          },
+          "sentiment": {
+            "kappa": 0.9662707397215742,
+            "observed": 0.9983132530120482,
+            "expected": 0.9499915807809552,
+            "bothAnnotated": 50,
+            "agree": 8286,
+            "totalDecisions": 8300
+          },
+          "polarity": {
+            "kappa": 0.9866619242397296,
+            "observed": 0.9933333333333333,
+            "expected": 0.5001777777777778,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6210333633646525,
+            "observed": 0.9735,
+            "expected": 0.9300729999999999,
+            "bothAnnotated": 50,
+            "agree": 1947,
+            "totalDecisions": 2000
+          },
+          "aspect": {
+            "kappa": 0.9275471024660493,
+            "observed": 0.9934939759036144,
+            "expected": 0.9102033967194078,
+            "bothAnnotated": 50,
+            "agree": 4123,
+            "totalDecisions": 4150
+          },
+          "sentiment": {
+            "kappa": 0.9093589290996009,
+            "observed": 0.9957894736842106,
+            "expected": 0.9535472576177285,
+            "bothAnnotated": 50,
+            "agree": 9460,
+            "totalDecisions": 9500
+          },
+          "polarity": {
+            "kappa": 0.933404368673415,
+            "observed": 0.9666666666666667,
+            "expected": 0.4994666666666666,
+            "bothAnnotated": 50,
+            "agree": 145,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.45924550313679235,
+            "observed": 0.9656521739130435,
+            "expected": 0.9364816635160681,
+            "bothAnnotated": 50,
+            "agree": 2221,
+            "totalDecisions": 2300
+          },
+          "aspect": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8967144575629316,
+            "bothAnnotated": 50,
+            "agree": 3350,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.9479281106738611,
+            "bothAnnotated": 50,
+            "agree": 7850,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7208685681525014,
+            "observed": 0.978421052631579,
+            "expected": 0.9226925207756232,
+            "bothAnnotated": 50,
+            "agree": 1859,
+            "totalDecisions": 1900
+          },
+          "aspect": {
+            "kappa": 0.9612480570106504,
+            "observed": 0.9963636363636363,
+            "expected": 0.9061630629111148,
+            "bothAnnotated": 50,
+            "agree": 3836,
+            "totalDecisions": 3850
+          },
+          "sentiment": {
+            "kappa": 0.9576497084167453,
+            "observed": 0.9979190751445086,
+            "expected": 0.9508639780814594,
+            "bothAnnotated": 50,
+            "agree": 8632,
+            "totalDecisions": 8650
+          },
+          "polarity": {
+            "kappa": 0.9733333333333334,
+            "observed": 0.9866666666666667,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 148,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6521739130434783,
+            "observed": 0.96875,
+            "expected": 0.91015625,
+            "bothAnnotated": 1,
+            "agree": 31,
+            "totalDecisions": 32
+          },
+          "aspect": {
+            "kappa": 0.8494382022471905,
+            "observed": 0.9850746268656716,
+            "expected": 0.9008687903764759,
+            "bothAnnotated": 1,
+            "agree": 66,
+            "totalDecisions": 67
+          },
+          "sentiment": {
+            "kappa": 0.743882544861338,
+            "observed": 0.9872611464968153,
+            "expected": 0.9502616739015781,
+            "bothAnnotated": 1,
+            "agree": 155,
+            "totalDecisions": 157
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 21,
+          "username": "H1"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.27588327386911643,
+            "observed": 0.9653333333333334,
+            "expected": 0.9521255822222222,
+            "bothAnnotated": 50,
+            "agree": 3620,
+            "totalDecisions": 3750
+          },
+          "aspect": {
+            "kappa": 0.9913072660876125,
+            "observed": 0.9991044776119403,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3347,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9803478431757885,
+            "observed": 0.999,
+            "expected": 0.949115,
+            "bothAnnotated": 50,
+            "agree": 7992,
+            "totalDecisions": 8000
+          },
+          "polarity": {
+            "kappa": 0.986652429257875,
+            "observed": 0.9933333333333333,
+            "expected": 0.5005333333333334,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7979870756065927,
+            "observed": 0.98,
+            "expected": 0.9009964334705076,
+            "bothAnnotated": 50,
+            "agree": 1323,
+            "totalDecisions": 1350
+          },
+          "aspect": {
+            "kappa": 0.9741401498657235,
+            "observed": 0.9974647887323944,
+            "expected": 0.901963419956358,
+            "bothAnnotated": 50,
+            "agree": 3541,
+            "totalDecisions": 3550
+          },
+          "sentiment": {
+            "kappa": 0.9926802994171853,
+            "observed": 0.9996226415094339,
+            "expected": 0.9484461848819272,
+            "bothAnnotated": 50,
+            "agree": 7947,
+            "totalDecisions": 7950
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.8256639241465803,
+            "observed": 0.9808695652173913,
+            "expected": 0.8902669187145558,
+            "bothAnnotated": 50,
+            "agree": 1128,
+            "totalDecisions": 1150
+          },
+          "aspect": {
+            "kappa": 0.9741401498657235,
+            "observed": 0.9974647887323944,
+            "expected": 0.901963419956358,
+            "bothAnnotated": 50,
+            "agree": 3541,
+            "totalDecisions": 3550
+          },
+          "sentiment": {
+            "kappa": 0.9877438662290019,
+            "observed": 0.9993710691823899,
+            "expected": 0.9486844033068311,
+            "bothAnnotated": 50,
+            "agree": 7945,
+            "totalDecisions": 7950
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7240352183626089,
+            "observed": 0.98,
+            "expected": 0.9275269841269841,
+            "bothAnnotated": 50,
+            "agree": 2058,
+            "totalDecisions": 2100
+          },
+          "aspect": {
+            "kappa": 0.9711926408963877,
+            "observed": 0.9971830985915493,
+            "expected": 0.9022159095417576,
+            "bothAnnotated": 50,
+            "agree": 3540,
+            "totalDecisions": 3550
+          },
+          "sentiment": {
+            "kappa": 0.9902177985617083,
+            "observed": 0.9994968553459119,
+            "expected": 0.9485652940943792,
+            "bothAnnotated": 50,
+            "agree": 7946,
+            "totalDecisions": 7950
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7806050193856946,
+            "observed": 0.9807142857142858,
+            "expected": 0.9120959183673469,
+            "bothAnnotated": 50,
+            "agree": 1373,
+            "totalDecisions": 1400
+          },
+          "aspect": {
+            "kappa": 0.957651303119001,
+            "observed": 0.995945945945946,
+            "expected": 0.9042696859021183,
+            "bothAnnotated": 50,
+            "agree": 3685,
+            "totalDecisions": 3700
+          },
+          "sentiment": {
+            "kappa": 0.9687513394351731,
+            "observed": 0.9984337349397591,
+            "expected": 0.9498773697198433,
+            "bothAnnotated": 50,
+            "agree": 8287,
+            "totalDecisions": 8300
+          },
+          "polarity": {
+            "kappa": 0.9866619242397296,
+            "observed": 0.9933333333333333,
+            "expected": 0.5001777777777778,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7145402529612528,
+            "observed": 0.9730769230769231,
+            "expected": 0.9056852071005916,
+            "bothAnnotated": 50,
+            "agree": 1265,
+            "totalDecisions": 1300
+          },
+          "aspect": {
+            "kappa": 0.9144840204442851,
+            "observed": 0.9925581395348837,
+            "expected": 0.9129769605191995,
+            "bothAnnotated": 50,
+            "agree": 4268,
+            "totalDecisions": 4300
+          },
+          "sentiment": {
+            "kappa": 0.9027945621469586,
+            "observed": 0.9955208333333333,
+            "expected": 0.9539206163194444,
+            "bothAnnotated": 50,
+            "agree": 9557,
+            "totalDecisions": 9600
+          },
+          "polarity": {
+            "kappa": 0.933404368673415,
+            "observed": 0.9666666666666667,
+            "expected": 0.4994666666666666,
+            "bothAnnotated": 50,
+            "agree": 145,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.5282471675495922,
+            "observed": 0.961875,
+            "expected": 0.919184375,
+            "bothAnnotated": 50,
+            "agree": 1539,
+            "totalDecisions": 1600
+          },
+          "aspect": {
+            "kappa": 0.9741401498657235,
+            "observed": 0.9974647887323944,
+            "expected": 0.901963419956358,
+            "bothAnnotated": 50,
+            "agree": 3541,
+            "totalDecisions": 3550
+          },
+          "sentiment": {
+            "kappa": 0.9926802994171853,
+            "observed": 0.9996226415094339,
+            "expected": 0.9484461848819272,
+            "bothAnnotated": 50,
+            "agree": 7947,
+            "totalDecisions": 7950
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7755128370532832,
+            "observed": 0.9758333333333333,
+            "expected": 0.8923472222222223,
+            "bothAnnotated": 50,
+            "agree": 1171,
+            "totalDecisions": 1200
+          },
+          "aspect": {
+            "kappa": 0.9366565253639104,
+            "observed": 0.994320987654321,
+            "expected": 0.9103457399786617,
+            "bothAnnotated": 50,
+            "agree": 4027,
+            "totalDecisions": 4050
+          },
+          "sentiment": {
+            "kappa": 0.9507158340704733,
+            "observed": 0.9976,
+            "expected": 0.9513028179591837,
+            "bothAnnotated": 50,
+            "agree": 8729,
+            "totalDecisions": 8750
+          },
+          "polarity": {
+            "kappa": 0.9733333333333334,
+            "observed": 0.9866666666666667,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 148,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8892733564013842,
+            "bothAnnotated": 1,
+            "agree": 17,
+            "totalDecisions": 17
+          },
+          "aspect": {
+            "kappa": 0.8497854077253223,
+            "observed": 0.9857142857142858,
+            "expected": 0.9048979591836736,
+            "bothAnnotated": 1,
+            "agree": 69,
+            "totalDecisions": 70
+          },
+          "sentiment": {
+            "kappa": 0.7439222042139392,
+            "observed": 0.9873417721518988,
+            "expected": 0.9505688190995033,
+            "bothAnnotated": 1,
+            "agree": 156,
+            "totalDecisions": 158
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 20,
+          "username": "H2"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.31493722296754456,
+            "observed": 0.9626666666666667,
+            "expected": 0.9455037777777778,
+            "bothAnnotated": 50,
+            "agree": 2888,
+            "totalDecisions": 3000
+          },
+          "aspect": {
+            "kappa": 0.9769362055445356,
+            "observed": 0.9977142857142857,
+            "expected": 0.900896,
+            "bothAnnotated": 50,
+            "agree": 3492,
+            "totalDecisions": 3500
+          },
+          "sentiment": {
+            "kappa": 0.9730500126432037,
+            "observed": 0.998641975308642,
+            "expected": 0.9496094497789971,
+            "bothAnnotated": 50,
+            "agree": 8089,
+            "totalDecisions": 8100
+          },
+          "polarity": {
+            "kappa": 0.986652429257875,
+            "observed": 0.9933333333333333,
+            "expected": 0.5005333333333334,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7830231552811557,
+            "observed": 0.9785185185185186,
+            "expected": 0.9009964334705076,
+            "bothAnnotated": 50,
+            "agree": 1321,
+            "totalDecisions": 1350
+          },
+          "aspect": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8967144575629316,
+            "bothAnnotated": 50,
+            "agree": 3350,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9950844411604471,
+            "observed": 0.9997452229299363,
+            "expected": 0.9481692563592844,
+            "bothAnnotated": 50,
+            "agree": 7848,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7788533228867863,
+            "observed": 0.9825,
+            "expected": 0.9208669999999999,
+            "bothAnnotated": 50,
+            "agree": 1965,
+            "totalDecisions": 2000
+          },
+          "aspect": {
+            "kappa": 0.9971024220292042,
+            "observed": 0.9997014925373134,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3349,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9975479247946981,
+            "observed": 0.9998726114649682,
+            "expected": 0.9480486835165726,
+            "bothAnnotated": 50,
+            "agree": 7849,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7074282429269497,
+            "observed": 0.9746666666666667,
+            "expected": 0.9134115555555555,
+            "bothAnnotated": 50,
+            "agree": 1462,
+            "totalDecisions": 1500
+          },
+          "aspect": {
+            "kappa": 0.9829659660000686,
+            "observed": 0.9982857142857143,
+            "expected": 0.8993611428571429,
+            "bothAnnotated": 50,
+            "agree": 3494,
+            "totalDecisions": 3500
+          },
+          "sentiment": {
+            "kappa": 0.9662707397215742,
+            "observed": 0.9983132530120482,
+            "expected": 0.9499915807809552,
+            "bothAnnotated": 50,
+            "agree": 8286,
+            "totalDecisions": 8300
+          },
+          "polarity": {
+            "kappa": 0.9866619242397296,
+            "observed": 0.9933333333333333,
+            "expected": 0.5001777777777778,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6766312158666281,
+            "observed": 0.972,
+            "expected": 0.9134115555555555,
+            "bothAnnotated": 50,
+            "agree": 1458,
+            "totalDecisions": 1500
+          },
+          "aspect": {
+            "kappa": 0.9275471024660493,
+            "observed": 0.9934939759036144,
+            "expected": 0.9102033967194078,
+            "bothAnnotated": 50,
+            "agree": 4123,
+            "totalDecisions": 4150
+          },
+          "sentiment": {
+            "kappa": 0.9093589290996009,
+            "observed": 0.9957894736842106,
+            "expected": 0.9535472576177285,
+            "bothAnnotated": 50,
+            "agree": 9460,
+            "totalDecisions": 9500
+          },
+          "polarity": {
+            "kappa": 0.933404368673415,
+            "observed": 0.9666666666666667,
+            "expected": 0.4994666666666666,
+            "bothAnnotated": 50,
+            "agree": 145,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.5431434676884542,
+            "observed": 0.96125,
+            "expected": 0.91518125,
+            "bothAnnotated": 50,
+            "agree": 1538,
+            "totalDecisions": 1600
+          },
+          "aspect": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8967144575629316,
+            "bothAnnotated": 50,
+            "agree": 3350,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.9479281106738611,
+            "bothAnnotated": 50,
+            "agree": 7850,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7500565482922416,
+            "observed": 0.9738461538461538,
+            "expected": 0.895360946745562,
+            "bothAnnotated": 50,
+            "agree": 1266,
+            "totalDecisions": 1300
+          },
+          "aspect": {
+            "kappa": 0.9612480570106504,
+            "observed": 0.9963636363636363,
+            "expected": 0.9061630629111148,
+            "bothAnnotated": 50,
+            "agree": 3836,
+            "totalDecisions": 3850
+          },
+          "sentiment": {
+            "kappa": 0.9576497084167453,
+            "observed": 0.9979190751445086,
+            "expected": 0.9508639780814594,
+            "bothAnnotated": 50,
+            "agree": 8632,
+            "totalDecisions": 8650
+          },
+          "polarity": {
+            "kappa": 0.9733333333333334,
+            "observed": 0.9866666666666667,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 148,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.909297052154195,
+            "bothAnnotated": 1,
+            "agree": 21,
+            "totalDecisions": 21
+          },
+          "aspect": {
+            "kappa": 0.8494382022471905,
+            "observed": 0.9850746268656716,
+            "expected": 0.9008687903764759,
+            "bothAnnotated": 1,
+            "agree": 66,
+            "totalDecisions": 67
+          },
+          "sentiment": {
+            "kappa": 0.743882544861338,
+            "observed": 0.9872611464968153,
+            "expected": 0.9502616739015781,
+            "bothAnnotated": 1,
+            "agree": 155,
+            "totalDecisions": 157
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 19,
+          "username": "H3"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.3127939108934879,
+            "observed": 0.9628571428571429,
+            "expected": 0.9459509196271102,
+            "bothAnnotated": 50,
+            "agree": 3033,
+            "totalDecisions": 3150
+          },
+          "aspect": {
+            "kappa": 0.9913072660876125,
+            "observed": 0.9991044776119403,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3347,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9803478431757885,
+            "observed": 0.999,
+            "expected": 0.949115,
+            "bothAnnotated": 50,
+            "agree": 7992,
+            "totalDecisions": 8000
+          },
+          "polarity": {
+            "kappa": 0.986652429257875,
+            "observed": 0.9933333333333333,
+            "expected": 0.5005333333333334,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7622328689853124,
+            "observed": 0.9805405405405405,
+            "expected": 0.9181574872169467,
+            "bothAnnotated": 50,
+            "agree": 1814,
+            "totalDecisions": 1850
+          },
+          "aspect": {
+            "kappa": 0.9971024220292042,
+            "observed": 0.9997014925373134,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3349,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9926094600167084,
+            "observed": 0.9996178343949045,
+            "expected": 0.9482898941133515,
+            "bothAnnotated": 50,
+            "agree": 7847,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7788275127652022,
+            "observed": 0.9775,
+            "expected": 0.8982694444444446,
+            "bothAnnotated": 50,
+            "agree": 1173,
+            "totalDecisions": 1200
+          },
+          "aspect": {
+            "kappa": 0.9829659660000686,
+            "observed": 0.9982857142857143,
+            "expected": 0.8993611428571429,
+            "bothAnnotated": 50,
+            "agree": 3494,
+            "totalDecisions": 3500
+          },
+          "sentiment": {
+            "kappa": 0.9612753926115313,
+            "observed": 0.9980722891566265,
+            "expected": 0.950220002903179,
+            "bothAnnotated": 50,
+            "agree": 8284,
+            "totalDecisions": 8300
+          },
+          "polarity": {
+            "kappa": 0.9866619242397296,
+            "observed": 0.9933333333333333,
+            "expected": 0.5001777777777778,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7118090903646921,
+            "observed": 0.9681818181818181,
+            "expected": 0.8895933884297521,
+            "bothAnnotated": 50,
+            "agree": 1065,
+            "totalDecisions": 1100
+          },
+          "aspect": {
+            "kappa": 0.9275471024660493,
+            "observed": 0.9934939759036144,
+            "expected": 0.9102033967194078,
+            "bothAnnotated": 50,
+            "agree": 4123,
+            "totalDecisions": 4150
+          },
+          "sentiment": {
+            "kappa": 0.9089557659903055,
+            "observed": 0.9957671957671957,
+            "expected": 0.953508266845833,
+            "bothAnnotated": 50,
+            "agree": 9410,
+            "totalDecisions": 9450
+          },
+          "polarity": {
+            "kappa": 0.933404368673415,
+            "observed": 0.9666666666666667,
+            "expected": 0.4994666666666666,
+            "bothAnnotated": 50,
+            "agree": 145,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.4958322129604735,
+            "observed": 0.9566666666666667,
+            "expected": 0.9140497777777777,
+            "bothAnnotated": 50,
+            "agree": 1435,
+            "totalDecisions": 1500
+          },
+          "aspect": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8967144575629316,
+            "bothAnnotated": 50,
+            "agree": 3350,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9950844411604471,
+            "observed": 0.9997452229299363,
+            "expected": 0.9481692563592844,
+            "bothAnnotated": 50,
+            "agree": 7848,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7593979887966525,
+            "observed": 0.9730434782608696,
+            "expected": 0.8879621928166351,
+            "bothAnnotated": 50,
+            "agree": 1119,
+            "totalDecisions": 1150
+          },
+          "aspect": {
+            "kappa": 0.9612480570106504,
+            "observed": 0.9963636363636363,
+            "expected": 0.9061630629111148,
+            "bothAnnotated": 50,
+            "agree": 3836,
+            "totalDecisions": 3850
+          },
+          "sentiment": {
+            "kappa": 0.9527333252460873,
+            "observed": 0.9976878612716763,
+            "expected": 0.951083110027064,
+            "bothAnnotated": 50,
+            "agree": 8630,
+            "totalDecisions": 8650
+          },
+          "polarity": {
+            "kappa": 0.9733333333333334,
+            "observed": 0.9866666666666667,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 148,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8579881656804735,
+            "bothAnnotated": 1,
+            "agree": 13,
+            "totalDecisions": 13
+          },
+          "aspect": {
+            "kappa": 0.8494382022471905,
+            "observed": 0.9850746268656716,
+            "expected": 0.9008687903764759,
+            "bothAnnotated": 1,
+            "agree": 66,
+            "totalDecisions": 67
+          },
+          "sentiment": {
+            "kappa": 0.7438016528925614,
+            "observed": 0.9870967741935484,
+            "expected": 0.9496357960457856,
+            "bothAnnotated": 1,
+            "agree": 153,
+            "totalDecisions": 155
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 17,
+          "username": "H4"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.2897949187824325,
+            "observed": 0.96,
+            "expected": 0.9436782401902497,
+            "bothAnnotated": 50,
+            "agree": 2784,
+            "totalDecisions": 2900
+          },
+          "aspect": {
+            "kappa": 0.9913072660876125,
+            "observed": 0.9991044776119403,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3347,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.975319854683305,
+            "observed": 0.99875,
+            "expected": 0.949352,
+            "bothAnnotated": 50,
+            "agree": 7990,
+            "totalDecisions": 8000
+          },
+          "polarity": {
+            "kappa": 0.986652429257875,
+            "observed": 0.9933333333333333,
+            "expected": 0.5005333333333334,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6286140404443714,
+            "observed": 0.9760869565217392,
+            "expected": 0.9356113421550095,
+            "bothAnnotated": 50,
+            "agree": 2245,
+            "totalDecisions": 2300
+          },
+          "aspect": {
+            "kappa": 0.9800765062161301,
+            "observed": 0.998,
+            "expected": 0.899616,
+            "bothAnnotated": 50,
+            "agree": 3493,
+            "totalDecisions": 3500
+          },
+          "sentiment": {
+            "kappa": 0.9637787835024433,
+            "observed": 0.9981927710843373,
+            "expected": 0.950105791842067,
+            "bothAnnotated": 50,
+            "agree": 8285,
+            "totalDecisions": 8300
+          },
+          "polarity": {
+            "kappa": 0.9866619242397296,
+            "observed": 0.9933333333333333,
+            "expected": 0.5001777777777778,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.5742808575049695,
+            "observed": 0.972,
+            "expected": 0.934228938271605,
+            "bothAnnotated": 50,
+            "agree": 2187,
+            "totalDecisions": 2250
+          },
+          "aspect": {
+            "kappa": 0.9246818098144391,
+            "observed": 0.9932530120481927,
+            "expected": 0.9104202061257077,
+            "bothAnnotated": 50,
+            "agree": 4122,
+            "totalDecisions": 4150
+          },
+          "sentiment": {
+            "kappa": 0.9068926676840359,
+            "observed": 0.9956842105263158,
+            "expected": 0.9536471578947368,
+            "bothAnnotated": 50,
+            "agree": 9459,
+            "totalDecisions": 9500
+          },
+          "polarity": {
+            "kappa": 0.933404368673415,
+            "observed": 0.9666666666666667,
+            "expected": 0.4994666666666666,
+            "bothAnnotated": 50,
+            "agree": 145,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.4734903473230355,
+            "observed": 0.96625,
+            "expected": 0.9358986111111111,
+            "bothAnnotated": 50,
+            "agree": 2319,
+            "totalDecisions": 2400
+          },
+          "aspect": {
+            "kappa": 0.9971024220292042,
+            "observed": 0.9997014925373134,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3349,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9975479247946981,
+            "observed": 0.9998726114649682,
+            "expected": 0.9480486835165726,
+            "bothAnnotated": 50,
+            "agree": 7849,
+            "totalDecisions": 7850
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5003555555555556,
+            "bothAnnotated": 50,
+            "agree": 150,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6701804307055557,
+            "observed": 0.9745,
+            "expected": 0.922685,
+            "bothAnnotated": 50,
+            "agree": 1949,
+            "totalDecisions": 2000
+          },
+          "aspect": {
+            "kappa": 0.9583766384468689,
+            "observed": 0.9961038961038962,
+            "expected": 0.9063962219598584,
+            "bothAnnotated": 50,
+            "agree": 3835,
+            "totalDecisions": 3850
+          },
+          "sentiment": {
+            "kappa": 0.9551970104806563,
+            "observed": 0.9978034682080925,
+            "expected": 0.9509735440542616,
+            "bothAnnotated": 50,
+            "agree": 8631,
+            "totalDecisions": 8650
+          },
+          "polarity": {
+            "kappa": 0.9733333333333334,
+            "observed": 0.9866666666666667,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 148,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6538461538461537,
+            "observed": 0.9722222222222222,
+            "expected": 0.9197530864197531,
+            "bothAnnotated": 1,
+            "agree": 35,
+            "totalDecisions": 36
+          },
+          "aspect": {
+            "kappa": 0.8494382022471905,
+            "observed": 0.9850746268656716,
+            "expected": 0.9008687903764759,
+            "bothAnnotated": 1,
+            "agree": 66,
+            "totalDecisions": 67
+          },
+          "sentiment": {
+            "kappa": 0.7438423645320209,
+            "observed": 0.9871794871794872,
+            "expected": 0.9499506903353057,
+            "bothAnnotated": 1,
+            "agree": 154,
+            "totalDecisions": 156
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "human",
+          "id": 18,
+          "username": "H5"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.2742970419600393,
+            "observed": 0.966,
+            "expected": 0.9531488749999999,
+            "bothAnnotated": 50,
+            "agree": 3864,
+            "totalDecisions": 4000
+          },
+          "aspect": {
+            "kappa": 0.9883796758796762,
+            "observed": 0.9988059701492538,
+            "expected": 0.8972464245934506,
+            "bothAnnotated": 50,
+            "agree": 3346,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9778397171362997,
+            "observed": 0.998875,
+            "expected": 0.9492335000000001,
+            "bothAnnotated": 50,
+            "agree": 7991,
+            "totalDecisions": 8000
+          },
+          "polarity": {
+            "kappa": 0.986652429257875,
+            "observed": 0.9933333333333333,
+            "expected": 0.5005333333333334,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7771646859083191,
+            "observed": 0.9752380952380952,
+            "expected": 0.8888780045351474,
+            "bothAnnotated": 50,
+            "agree": 1024,
+            "totalDecisions": 1050
+          },
+          "aspect": {
+            "kappa": 0.9391622039535323,
+            "observed": 0.9944578313253012,
+            "expected": 0.9089025402816084,
+            "bothAnnotated": 50,
+            "agree": 4127,
+            "totalDecisions": 4150
+          },
+          "sentiment": {
+            "kappa": 0.9105478457789248,
+            "observed": 0.9958549222797928,
+            "expected": 0.9536615103761176,
+            "bothAnnotated": 50,
+            "agree": 9610,
+            "totalDecisions": 9650
+          },
+          "polarity": {
+            "kappa": 0.9466950959488274,
+            "observed": 0.9733333333333334,
+            "expected": 0.49973333333333336,
+            "bothAnnotated": 50,
+            "agree": 146,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.5651642712752957,
+            "observed": 0.9627586206896551,
+            "expected": 0.9143552913198573,
+            "bothAnnotated": 50,
+            "agree": 1396,
+            "totalDecisions": 1450
+          },
+          "aspect": {
+            "kappa": 0.9829659660000686,
+            "observed": 0.9982857142857143,
+            "expected": 0.8993611428571429,
+            "bothAnnotated": 50,
+            "agree": 3494,
+            "totalDecisions": 3500
+          },
+          "sentiment": {
+            "kappa": 0.9662707397215742,
+            "observed": 0.9983132530120482,
+            "expected": 0.9499915807809552,
+            "bothAnnotated": 50,
+            "agree": 8286,
+            "totalDecisions": 8300
+          },
+          "polarity": {
+            "kappa": 0.9866619242397296,
+            "observed": 0.9933333333333333,
+            "expected": 0.5001777777777778,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.7127424502823474,
+            "observed": 0.9723076923076923,
+            "expected": 0.9035976331360946,
+            "bothAnnotated": 50,
+            "agree": 1264,
+            "totalDecisions": 1300
+          },
+          "aspect": {
+            "kappa": 0.9727266416082356,
+            "observed": 0.9974025974025974,
+            "expected": 0.904764108618654,
+            "bothAnnotated": 50,
+            "agree": 3840,
+            "totalDecisions": 3850
+          },
+          "sentiment": {
+            "kappa": 0.948959482483561,
+            "observed": 0.9975280898876404,
+            "expected": 0.9515696502966797,
+            "bothAnnotated": 50,
+            "agree": 8878,
+            "totalDecisions": 8900
+          },
+          "polarity": {
+            "kappa": 0.9866666666666666,
+            "observed": 0.9933333333333333,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8673469387755102,
+            "bothAnnotated": 1,
+            "agree": 14,
+            "totalDecisions": 14
+          },
+          "aspect": {
+            "kappa": 0.8497854077253223,
+            "observed": 0.9857142857142858,
+            "expected": 0.9048979591836736,
+            "bothAnnotated": 1,
+            "agree": 69,
+            "totalDecisions": 70
+          },
+          "sentiment": {
+            "kappa": 0.7441130298273152,
+            "observed": 0.9877300613496932,
+            "expected": 0.9520493808573901,
+            "bothAnnotated": 1,
+            "agree": 161,
+            "totalDecisions": 163
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:deepseek-ai/deepseek-v4-pro-0813",
+          "model_id": "deepseek-ai/deepseek-v4-pro-0813"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.3618659787423763,
+            "observed": 0.9618867924528302,
+            "expected": 0.940273976504094,
+            "bothAnnotated": 50,
+            "agree": 2549,
+            "totalDecisions": 2650
+          },
+          "aspect": {
+            "kappa": 0.9743840794207388,
+            "observed": 0.9974285714285714,
+            "expected": 0.899616,
+            "bothAnnotated": 50,
+            "agree": 3491,
+            "totalDecisions": 3500
+          },
+          "sentiment": {
+            "kappa": 0.9661105868766098,
+            "observed": 0.9983030303030302,
+            "expected": 0.949926258953168,
+            "bothAnnotated": 50,
+            "agree": 8236,
+            "totalDecisions": 8250
+          },
+          "polarity": {
+            "kappa": 0.9733191035218783,
+            "observed": 0.9866666666666667,
+            "expected": 0.5002666666666666,
+            "bothAnnotated": 50,
+            "agree": 148,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.5959728972633891,
+            "observed": 0.9629629629629629,
+            "expected": 0.9083303155006859,
+            "bothAnnotated": 50,
+            "agree": 1300,
+            "totalDecisions": 1350
+          },
+          "aspect": {
+            "kappa": 0.9275471024660493,
+            "observed": 0.9934939759036144,
+            "expected": 0.9102033967194078,
+            "bothAnnotated": 50,
+            "agree": 4123,
+            "totalDecisions": 4150
+          },
+          "sentiment": {
+            "kappa": 0.9093589290996009,
+            "observed": 0.9957894736842106,
+            "expected": 0.9535472576177285,
+            "bothAnnotated": 50,
+            "agree": 9460,
+            "totalDecisions": 9500
+          },
+          "polarity": {
+            "kappa": 0.933404368673415,
+            "observed": 0.9666666666666667,
+            "expected": 0.4994666666666666,
+            "bothAnnotated": 50,
+            "agree": 145,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.6794015495591773,
+            "observed": 0.9666666666666667,
+            "expected": 0.8960277777777778,
+            "bothAnnotated": 50,
+            "agree": 1160,
+            "totalDecisions": 1200
+          },
+          "aspect": {
+            "kappa": 0.9455875937303407,
+            "observed": 0.9951162790697674,
+            "expected": 0.9102461871281773,
+            "bothAnnotated": 50,
+            "agree": 4279,
+            "totalDecisions": 4300
+          },
+          "sentiment": {
+            "kappa": 0.9255661017923414,
+            "observed": 0.9965128205128205,
+            "expected": 0.9531506535174229,
+            "bothAnnotated": 50,
+            "agree": 9716,
+            "totalDecisions": 9750
+          },
+          "polarity": {
+            "kappa": 0.96,
+            "observed": 0.98,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 147,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8472222222222221,
+            "bothAnnotated": 1,
+            "agree": 12,
+            "totalDecisions": 12
+          },
+          "aspect": {
+            "kappa": 0.850909090909091,
+            "observed": 0.9878048780487805,
+            "expected": 0.9182034503271861,
+            "bothAnnotated": 1,
+            "agree": 81,
+            "totalDecisions": 82
+          },
+          "sentiment": {
+            "kappa": 0.7448559670781889,
+            "observed": 0.989247311827957,
+            "expected": 0.957856399583767,
+            "bothAnnotated": 1,
+            "agree": 184,
+            "totalDecisions": 186
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:mistralai/mistral-nemotron",
+          "model_id": "mistralai/mistral-nemotron"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.34958931277714317,
+            "observed": 0.9618518518518518,
+            "expected": 0.9413475994513032,
+            "bothAnnotated": 50,
+            "agree": 2597,
+            "totalDecisions": 2700
+          },
+          "aspect": {
+            "kappa": 0.9300197992763024,
+            "observed": 0.9936585365853658,
+            "expected": 0.9093820345032717,
+            "bothAnnotated": 50,
+            "agree": 4074,
+            "totalDecisions": 4100
+          },
+          "sentiment": {
+            "kappa": 0.9089440218844326,
+            "observed": 0.9957446808510638,
+            "expected": 0.9532669986419193,
+            "bothAnnotated": 50,
+            "agree": 9360,
+            "totalDecisions": 9400
+          },
+          "polarity": {
+            "kappa": 0.9201277955271565,
+            "observed": 0.96,
+            "expected": 0.4992,
+            "bothAnnotated": 50,
+            "agree": 144,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.619582327631441,
+            "observed": 0.9655172413793104,
+            "expected": 0.9093555291319858,
+            "bothAnnotated": 50,
+            "agree": 1400,
+            "totalDecisions": 1450
+          },
+          "aspect": {
+            "kappa": 0.9612480570106504,
+            "observed": 0.9963636363636363,
+            "expected": 0.9061630629111148,
+            "bothAnnotated": 50,
+            "agree": 3836,
+            "totalDecisions": 3850
+          },
+          "sentiment": {
+            "kappa": 0.9576497084167453,
+            "observed": 0.9979190751445086,
+            "expected": 0.9508639780814594,
+            "bothAnnotated": 50,
+            "agree": 8632,
+            "totalDecisions": 8650
+          },
+          "polarity": {
+            "kappa": 0.9733333333333334,
+            "observed": 0.9866666666666667,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 148,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.9002770083102491,
+            "bothAnnotated": 1,
+            "agree": 19,
+            "totalDecisions": 19
+          },
+          "aspect": {
+            "kappa": 0.8494382022471905,
+            "observed": 0.9850746268656716,
+            "expected": 0.9008687903764759,
+            "bothAnnotated": 1,
+            "agree": 66,
+            "totalDecisions": 67
+          },
+          "sentiment": {
+            "kappa": 0.743882544861338,
+            "observed": 0.9872611464968153,
+            "expected": 0.9502616739015781,
+            "bothAnnotated": 1,
+            "agree": 155,
+            "totalDecisions": 157
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-super-120b-a12b",
+          "model_id": "nvidia/nemotron-3-super-120b-a12b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.3738464543544704,
+            "observed": 0.9662295081967213,
+            "expected": 0.9460667562483205,
+            "bothAnnotated": 50,
+            "agree": 2947,
+            "totalDecisions": 3050
+          },
+          "aspect": {
+            "kappa": 0.9913072660876125,
+            "observed": 0.9991044776119403,
+            "expected": 0.896980351971486,
+            "bothAnnotated": 50,
+            "agree": 3347,
+            "totalDecisions": 3350
+          },
+          "sentiment": {
+            "kappa": 0.9803478431757885,
+            "observed": 0.999,
+            "expected": 0.949115,
+            "bothAnnotated": 50,
+            "agree": 7992,
+            "totalDecisions": 8000
+          },
+          "polarity": {
+            "kappa": 0.986652429257875,
+            "observed": 0.9933333333333333,
+            "expected": 0.5005333333333334,
+            "bothAnnotated": 50,
+            "agree": 149,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.8828125,
+            "bothAnnotated": 1,
+            "agree": 16,
+            "totalDecisions": 16
+          },
+          "aspect": {
+            "kappa": 0.8504854368932038,
+            "observed": 0.987012987012987,
+            "expected": 0.9131388092427054,
+            "bothAnnotated": 1,
+            "agree": 76,
+            "totalDecisions": 77
+          },
+          "sentiment": {
+            "kappa": 0.7444279346210999,
+            "observed": 0.9883720930232558,
+            "expected": 0.9545024337479717,
+            "bothAnnotated": 1,
+            "agree": 170,
+            "totalDecisions": 172
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3-ultra-550b-a55b",
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 0.3562236136321931,
+            "observed": 0.963728813559322,
+            "expected": 0.9436587187589772,
+            "bothAnnotated": 50,
+            "agree": 2843,
+            "totalDecisions": 2950
+          },
+          "aspect": {
+            "kappa": 0.9528268569064507,
+            "observed": 0.9955844155844156,
+            "expected": 0.9063962219598584,
+            "bothAnnotated": 50,
+            "agree": 3833,
+            "totalDecisions": 3850
+          },
+          "sentiment": {
+            "kappa": 0.9480143321824418,
+            "observed": 0.9974712643678161,
+            "expected": 0.9513570616990354,
+            "bothAnnotated": 50,
+            "agree": 8678,
+            "totalDecisions": 8700
+          },
+          "polarity": {
+            "kappa": 0.96,
+            "observed": 0.98,
+            "expected": 0.5,
+            "bothAnnotated": 50,
+            "agree": 147,
+            "totalDecisions": 150
+          }
+        }
+      },
+      {
+        "annotatorA": {
+          "kind": "llm",
+          "id": "llm:nvidia/nemotron-3.5-lightning-30b-a3b",
+          "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b"
+        },
+        "annotatorB": {
+          "kind": "llm",
+          "id": "llm:openai/gpt-oss-20b",
+          "model_id": "openai/gpt-oss-20b"
+        },
+        "elements": {
+          "holder": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.9592013888888888,
+            "bothAnnotated": 1,
+            "agree": 48,
+            "totalDecisions": 48
+          },
+          "aspect": {
+            "kappa": 0.8493150684931506,
+            "observed": 0.9848484848484849,
+            "expected": 0.8994490358126723,
+            "bothAnnotated": 1,
+            "agree": 65,
+            "totalDecisions": 66
+          },
+          "sentiment": {
+            "kappa": 0.7438423645320209,
+            "observed": 0.9871794871794872,
+            "expected": 0.9499506903353057,
+            "bothAnnotated": 1,
+            "agree": 154,
+            "totalDecisions": 156
+          },
+          "polarity": {
+            "kappa": 1,
+            "observed": 1,
+            "expected": 0.5555555555555556,
+            "bothAnnotated": 1,
+            "agree": 3,
+            "totalDecisions": 3
+          }
+        }
+      }
+    ],
+    "aggregatedElementKappas": {
+      "all": {
+        "elements": {
+          "holder": 0.6710712408288975,
+          "aspect": 0.948324686862547,
+          "sentiment": 0.9238780103831901,
+          "polarity": 0.9823112908125572
+        },
+        "pairCount": 55
+      },
+      "humans": {
+        "elements": {
+          "holder": 0.7751889873012023,
+          "aspect": 0.988492035658117,
+          "sentiment": 0.9941196455552082,
+          "polarity": 1
+        },
+        "pairCount": 10
+      },
+      "llms": {
+        "elements": {
+          "holder": 0.6927702360950769,
+          "aspect": 0.9218472515151961,
+          "sentiment": 0.8761927621554656,
+          "polarity": 0.9751240478112587
+        },
+        "pairCount": 15
+      }
+    },
+    "agreementByElement": {
+      "holder": {
+        "agreement": 0.14,
+        "itemsAgreed": 7,
+        "itemsTotal": 50,
+        "annotators": 11
+      },
+      "aspect": {
+        "agreement": 0.74,
+        "itemsAgreed": 37,
+        "itemsTotal": 50,
+        "annotators": 11
+      },
+      "sentiment": {
+        "agreement": 0.66,
+        "itemsAgreed": 33,
+        "itemsTotal": 50,
+        "annotators": 11
+      },
+      "polarity": {
+        "agreement": 0.9,
+        "itemsAgreed": 45,
+        "itemsTotal": 50,
+        "annotators": 11
+      }
+    },
+    "agreementByGroup": {
+      "all": {
+        "holder": {
+          "agreement": 0.14,
+          "itemsAgreed": 7,
+          "itemsTotal": 50,
+          "annotators": 11
+        },
+        "aspect": {
+          "agreement": 0.74,
+          "itemsAgreed": 37,
+          "itemsTotal": 50,
+          "annotators": 11
+        },
+        "sentiment": {
+          "agreement": 0.66,
+          "itemsAgreed": 33,
+          "itemsTotal": 50,
+          "annotators": 11
+        },
+        "polarity": {
+          "agreement": 0.9,
+          "itemsAgreed": 45,
+          "itemsTotal": 50,
+          "annotators": 11
+        }
+      },
+      "humans": {
+        "holder": {
+          "agreement": 0.4,
+          "itemsAgreed": 20,
+          "itemsTotal": 50,
+          "annotators": 5
+        },
+        "aspect": {
+          "agreement": 0.9,
+          "itemsAgreed": 45,
+          "itemsTotal": 50,
+          "annotators": 5
+        },
+        "sentiment": {
+          "agreement": 0.9,
+          "itemsAgreed": 45,
+          "itemsTotal": 50,
+          "annotators": 5
+        },
+        "polarity": {
+          "agreement": 1,
+          "itemsAgreed": 50,
+          "itemsTotal": 50,
+          "annotators": 5
+        }
+      },
+      "llms": {
+        "holder": {
+          "agreement": 0.18,
+          "itemsAgreed": 9,
+          "itemsTotal": 50,
+          "annotators": 6
+        },
+        "aspect": {
+          "agreement": 0.82,
+          "itemsAgreed": 41,
+          "itemsTotal": 50,
+          "annotators": 6
+        },
+        "sentiment": {
+          "agreement": 0.7,
+          "itemsAgreed": 35,
+          "itemsTotal": 50,
+          "annotators": 6
+        },
+        "polarity": {
+          "agreement": 0.9,
+          "itemsAgreed": 45,
+          "itemsTotal": 50,
+          "annotators": 6
+        }
+      }
+    },
+    "matrix": {
+      "17": {
+        "17": 1,
+        "18": 0.7622328689853124,
+        "19": 0.7830231552811557,
+        "20": 0.8256639241465803,
+        "21": 0.7626682686205989,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.7788275127652022,
+        "mistralai/mistral-nemotron": 0.7118090903646921,
+        "nvidia/nemotron-3-super-120b-a12b": 0.4958322129604735,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.7593979887966525,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 0.2897949187824325
+      },
+      "18": {
+        "17": 0.7622328689853124,
+        "18": 1,
+        "19": 0.7788533228867863,
+        "20": 0.7240352183626089,
+        "21": 0.7853384149825836,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.6286140404443714,
+        "mistralai/mistral-nemotron": 0.5742808575049695,
+        "nvidia/nemotron-3-super-120b-a12b": 0.4734903473230355,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.6701804307055557,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 0.6538461538461537,
+        "openai/gpt-oss-20b": 0.2742970419600393
+      },
+      "19": {
+        "17": 0.7830231552811557,
+        "18": 0.7788533228867863,
+        "19": 1,
+        "20": 0.7979870756065927,
+        "21": 0.7412085780593874,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.7074282429269497,
+        "mistralai/mistral-nemotron": 0.6766312158666281,
+        "nvidia/nemotron-3-super-120b-a12b": 0.5431434676884542,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.7500565482922416,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 0.3127939108934879
+      },
+      "20": {
+        "17": 0.8256639241465803,
+        "18": 0.7240352183626089,
+        "19": 0.7979870756065927,
+        "20": 1,
+        "21": 0.7908790460804168,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.7806050193856946,
+        "mistralai/mistral-nemotron": 0.7145402529612528,
+        "nvidia/nemotron-3-super-120b-a12b": 0.5282471675495922,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.7755128370532832,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 0.31493722296754456
+      },
+      "21": {
+        "17": 0.7626682686205989,
+        "18": 0.7853384149825836,
+        "19": 0.7412085780593874,
+        "20": 0.7908790460804168,
+        "21": 1,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.6220037285459326,
+        "mistralai/mistral-nemotron": 0.6210333633646525,
+        "nvidia/nemotron-3-super-120b-a12b": 0.45924550313679235,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.7208685681525014,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 0.6521739130434783,
+        "openai/gpt-oss-20b": 0.27588327386911643
+      },
+      "deepseek-ai/deepseek-v4-pro-0813": {
+        "17": 0.7788275127652022,
+        "18": 0.6286140404443714,
+        "19": 0.7074282429269497,
+        "20": 0.7806050193856946,
+        "21": 0.6220037285459326,
+        "mistralai/mistral-nemotron": 0.7771646859083191,
+        "nvidia/nemotron-3-super-120b-a12b": 0.5651642712752957,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.7127424502823474,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 0.3618659787423763,
+        "deepseek-ai/deepseek-v4-pro-0813": 1
+      },
+      "mistralai/mistral-nemotron": {
+        "17": 0.7118090903646921,
+        "18": 0.5742808575049695,
+        "19": 0.6766312158666281,
+        "20": 0.7145402529612528,
+        "21": 0.6210333633646525,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.7771646859083191,
+        "nvidia/nemotron-3-super-120b-a12b": 0.5959728972633891,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.6794015495591773,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 0.34958931277714317,
+        "mistralai/mistral-nemotron": 1
+      },
+      "nvidia/nemotron-3-super-120b-a12b": {
+        "17": 0.4958322129604735,
+        "18": 0.4734903473230355,
+        "19": 0.5431434676884542,
+        "20": 0.5282471675495922,
+        "21": 0.45924550313679235,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.5651642712752957,
+        "mistralai/mistral-nemotron": 0.5959728972633891,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.619582327631441,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 0.3738464543544704,
+        "nvidia/nemotron-3-super-120b-a12b": 1
+      },
+      "nvidia/nemotron-3-ultra-550b-a55b": {
+        "17": 0.7593979887966525,
+        "18": 0.6701804307055557,
+        "19": 0.7500565482922416,
+        "20": 0.7755128370532832,
+        "21": 0.7208685681525014,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.7127424502823474,
+        "mistralai/mistral-nemotron": 0.6794015495591773,
+        "nvidia/nemotron-3-super-120b-a12b": 0.619582327631441,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 0.3562236136321931,
+        "nvidia/nemotron-3-ultra-550b-a55b": 1
+      },
+      "nvidia/nemotron-3.5-lightning-30b-a3b": {
+        "17": 1,
+        "18": 0.6538461538461537,
+        "19": 1,
+        "20": 1,
+        "21": 0.6521739130434783,
+        "deepseek-ai/deepseek-v4-pro-0813": 1,
+        "mistralai/mistral-nemotron": 1,
+        "nvidia/nemotron-3-super-120b-a12b": 1,
+        "nvidia/nemotron-3-ultra-550b-a55b": 1,
+        "openai/gpt-oss-20b": 1,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1
+      },
+      "openai/gpt-oss-20b": {
+        "17": 0.2897949187824325,
+        "18": 0.2742970419600393,
+        "19": 0.3127939108934879,
+        "20": 0.31493722296754456,
+        "21": 0.27588327386911643,
+        "deepseek-ai/deepseek-v4-pro-0813": 0.3618659787423763,
+        "mistralai/mistral-nemotron": 0.34958931277714317,
+        "nvidia/nemotron-3-super-120b-a12b": 0.3738464543544704,
+        "nvidia/nemotron-3-ultra-550b-a55b": 0.3562236136321931,
+        "nvidia/nemotron-3.5-lightning-30b-a3b": 1,
+        "openai/gpt-oss-20b": 1
+      }
+    },
+    "fleiss": {
+      "kappa": null,
+      "multiLabel": true,
+      "error": "Fleiss não se aplica a anotação multi-rótulo; use a concordância por elemento."
+    },
+    "krippendorff": {
+      "alpha": 0.21297359680203476,
+      "observedDisagreement": 0.3724761202416064,
+      "expectedDisagreement": 0.47327017076950006,
+      "unitsConsidered": 50,
+      "values": 501
+    },
+    "krippendorffByElement": {
+      "holder": {
+        "alpha": 0.21297359680203476,
+        "observedDisagreement": 0.3724761202416064,
+        "expectedDisagreement": 0.47327017076950006,
+        "unitsConsidered": 50,
+        "values": 501
+      },
+      "aspect": {
+        "alpha": 0.960756846205739,
+        "observedDisagreement": 0.03500661825883064,
+        "expectedDisagreement": 0.892043958606357,
+        "unitsConsidered": 50,
+        "values": 501
+      },
+      "sentiment": {
+        "alpha": 0.9459187553252882,
+        "observedDisagreement": 0.05254198112605201,
+        "expectedDisagreement": 0.971537941518947,
+        "unitsConsidered": 50,
+        "values": 501
+      },
+      "polarity": {
+        "alpha": 0.9679416857430163,
+        "observedDisagreement": 0.014233038348082592,
+        "expectedDisagreement": 0.4439733865601501,
+        "unitsConsidered": 50,
+        "values": 501
+      }
+    },
+    "krippendorffByGroup": {
+      "all": {
+        "alpha": 0.21297359680203476,
+        "observedDisagreement": 0.3724761202416064,
+        "expectedDisagreement": 0.47327017076950006,
+        "unitsConsidered": 50,
+        "values": 501
+      },
+      "humans": {
+        "alpha": 0.44014187698854945,
+        "observedDisagreement": 0.23250158730158724,
+        "expectedDisagreement": 0.41528661949383194,
+        "unitsConsidered": 50,
+        "values": 250
+      },
+      "llms": {
+        "alpha": 0.1701647505141709,
+        "observedDisagreement": 0.4297831211692596,
+        "expectedDisagreement": 0.5179137924492311,
+        "unitsConsidered": 50,
+        "values": 251
+      }
+    },
+    "computedAt": "2026-09-18T19:18:21.208Z"
+  }
+}
